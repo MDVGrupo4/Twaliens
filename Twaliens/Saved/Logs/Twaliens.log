@@ -1,4 +1,4 @@
-﻿Log file open, 02/27/19 14:13:33
+﻿Log file open, 02/27/19 15:59:07
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: Twaliens
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.822030
+LogStats: Stats thread started at 0.315054
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -94,7 +94,110 @@ LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.155s to configure plugins.
+LogStreaming: Display: Took  0.108s to configure plugins.
+LogInit: Warning: Incompatible or missing module: Twaliens
+Running D:/Engines/UnrealEngine/Unreal 4.21/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="D:/Master de videojuegos Madrid/repogit/Twaliens/Twaliens.uproject" -TargetType=Editor -Progress -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build (D:\Master de videojuegos Madrid\repogit).
+Creating makefile for TwaliensEditor (no existing makefile)
+Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+@progress push 5%
+Parsing headers for TwaliensEditor
+  Running UnrealHeaderTool "D:\Master de videojuegos Madrid\repogit\Twaliens\Twaliens.uproject" "D:\Master de videojuegos Madrid\repogit\Twaliens\Intermediate\Build\Win64\TwaliensEditor\Development\TwaliensEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for TwaliensEditor in 12.0957368 seconds
+@progress pop
+Building 38 actions with 8 processes...
+  @progress 'Compiling C++ source code...' 0%
+  @progress 'Compiling C++ source code...' 3%
+  [1/38] PCLaunch.rc
+  @progress 'Compiling C++ source code...' 5%
+  [2/38] SharedPCH.Engine.cpp
+  @progress 'Compiling C++ source code...' 8%
+  [3/38] EnemySpawner.gen.cpp
+  @progress 'Compiling C++ source code...' 11%
+  [4/38] LifeComponent.gen.cpp
+  @progress 'Compiling C++ source code...' 13%
+  [5/38] Dustpan.gen.cpp
+  @progress 'Compiling C++ source code...' 16%
+  [6/38] PickableObject.gen.cpp
+  @progress 'Compiling C++ source code...' 18%
+  [7/38] Camera.gen.cpp
+  @progress 'Compiling C++ source code...' 21%
+  [8/38] ProjectileA.gen.cpp
+  @progress 'Compiling C++ source code...' 24%
+  [9/38] Twaliens.init.gen.cpp
+  @progress 'Compiling C++ source code...' 26%
+  [10/38] Twalien.gen.cpp
+  @progress 'Compiling C++ source code...' 29%
+  [11/38] Weapon.gen.cpp
+  @progress 'Compiling C++ source code...' 32%
+  [12/38] TwaliensGameModeBase.gen.cpp
+  @progress 'Compiling C++ source code...' 34%
+  [13/38] MoveToActor.gen.cpp
+  @progress 'Compiling C++ source code...' 37%
+  [14/38] LookAtRange.gen.cpp
+  @progress 'Compiling C++ source code...' 39%
+  [15/38] CheckEnemyAtMeleeRange.gen.cpp
+  @progress 'Compiling C++ source code...' 42%
+  [16/38] LifeComponent.cpp
+  @progress 'Compiling C++ source code...' 45%
+  [17/38] BasicWarrior.gen.cpp
+  @progress 'Compiling C++ source code...' 47%
+  [18/38] Dustpan.cpp
+  @progress 'Compiling C++ source code...' 50%
+  [19/38] BasicWarriorController.gen.cpp
+  @progress 'Compiling C++ source code...' 53%
+  [20/38] Camera.cpp
+  D:\Master de videojuegos Madrid\repogit\Twaliens\Source\Twaliens\Camera.cpp(24): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  D:\Engines\UnrealEngine\Unreal 4.21\UE_4.21\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(684): note: vea la declaraci?n de 'USceneComponent::AttachTo'
+  D:\Master de videojuegos Madrid\repogit\Twaliens\Source\Twaliens\Camera.cpp(25): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  D:\Engines\UnrealEngine\Unreal 4.21\UE_4.21\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(684): note: vea la declaraci?n de 'USceneComponent::AttachTo'
+  @progress 'Compiling C++ source code...' 55%
+  [21/38] NeedToChasePlayer.gen.cpp
+  @progress 'Compiling C++ source code...' 58%
+  [22/38] CharacterManager.cpp
+  D:\Master de videojuegos Madrid\repogit\Twaliens\Source\Twaliens\CharacterManager.cpp(196): warning C4996: 'AController::CastToPlayerController': CastToPlayerController has been replaced by the standard Cast To node. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  D:\Engines\UnrealEngine\Unreal 4.21\UE_4.21\Engine\Source\Runtime\Engine\Classes\GameFramework/Controller.h(188): note: vea la declaraci?n de 'AController::CastToPlayerController'
+  D:\Master de videojuegos Madrid\repogit\Twaliens\Source\Twaliens\CharacterManager.cpp(208): warning C4996: 'AController::CastToPlayerController': CastToPlayerController has been replaced by the standard Cast To node. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  D:\Engines\UnrealEngine\Unreal 4.21\UE_4.21\Engine\Source\Runtime\Engine\Classes\GameFramework/Controller.h(188): note: vea la declaraci?n de 'AController::CastToPlayerController'
+  @progress 'Compiling C++ source code...' 61%
+  [23/38] Weapon.cpp
+  @progress 'Compiling C++ source code...' 63%
+  [24/38] EnemySpawner.cpp
+  @progress 'Compiling C++ source code...' 66%
+  [25/38] ProjectileA.cpp
+  @progress 'Compiling C++ source code...' 68%
+  [26/38] PickableObject.cpp
+  @progress 'Compiling C++ source code...' 71%
+  [27/38] BasicWarriorController.cpp
+  @progress 'Compiling C++ source code...' 74%
+  [28/38] Twalien.cpp
+  D:\Master de videojuegos Madrid\repogit\Twaliens\Source\Twaliens\Twalien.cpp(115): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  D:\Engines\UnrealEngine\Unreal 4.21\UE_4.21\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(684): note: vea la declaraci?n de 'USceneComponent::AttachTo'
+  @progress 'Compiling C++ source code...' 76%
+  [29/38] Twaliens.cpp
+  @progress 'Compiling C++ source code...' 79%
+  [30/38] CheckEnemyAtMeleeRange.cpp
+  d:\master de videojuegos madrid\repogit\twaliens\source\twaliens\checkenemyatmeleerange.cpp(61) : warning C4701: posiblemente se utiliz? la variable local 'Distance' sin inicializar
+  @progress 'Compiling C++ source code...' 82%
+  [31/38] CharacterManager.gen.cpp
+  @progress 'Compiling C++ source code...' 84%
+  [32/38] TwaliensGameModeBase.cpp
+  @progress 'Compiling C++ source code...' 87%
+  [33/38] MoveToActor.cpp
+  @progress 'Compiling C++ source code...' 89%
+  [34/38] LookAtRange.cpp
+  @progress 'Compiling C++ source code...' 92%
+  [35/38] NeedToChasePlayer.cpp
+  d:\master de videojuegos madrid\repogit\twaliens\source\twaliens\needtochaseplayer.cpp(60) : warning C4701: posiblemente se utiliz? la variable local 'Distance' sin inicializar
+  @progress 'Compiling C++ source code...' 95%
+  [36/38] BasicWarrior.cpp
+  @progress 'Compiling C++ source code...' 97%
+  [37/38] UE4Editor-Twaliens.lib
+     Creando biblioteca D:\Master de videojuegos Madrid\repogit\Twaliens\Intermediate\Build\Win64\UE4Editor\Development\Twaliens\UE4Editor-Twaliens.lib y objeto D:\Master de videojuegos Madrid\repogit\Twaliens\Intermediate\Build\Win64\UE4Editor\Development\Twaliens\UE4Editor-Twaliens.exp
+  @progress 'Compiling C++ source code...' 100%
+  [38/38] UE4Editor-Twaliens.dll
+     Creando biblioteca D:\Master de videojuegos Madrid\repogit\Twaliens\Intermediate\Build\Win64\UE4Editor\Development\Twaliens\UE4Editor-Twaliens.suppressed.lib y objeto D:\Master de videojuegos Madrid\repogit\Twaliens\Intermediate\Build\Win64\UE4Editor\Development\Twaliens\UE4Editor-Twaliens.suppressed.exp
+Total build time: 101.71 seconds (Parallel executor: 46.08 seconds)
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -118,13 +221,13 @@ LogInit: Build: ++UE4+Release-4.21-CL-4753647
 LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
 LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
 LogInit: Net CL: 4541578
-LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-4790S CPU @ 3.20GHz, GPU: NVIDIA GeForce GTX 1070
 LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.21
 LogInit: Command Line: 
-LogInit: Base Directory: D:/Engine/UE_4.21/Engine/Binaries/Win64/
+LogInit: Base Directory: D:/Engines/UnrealEngine/Unreal 4.21/UE_4.21/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 22
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -149,569 +252,927 @@ LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
 LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
-LogStreaming: Display: Took  0.001s to delete old logs.
+LogStreaming: Display: Took  0.002s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.02.27-13.13.35:215][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.02.27-13.13.35:215][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.02.27-13.13.35:216][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Proyectos/Unreal/Git/tualiens/Twaliens/Saved/Config/Windows/Engine.ini]
-[2019.02.27-13.13.35:216][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.02.27-13.13.35:216][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Proyectos/Unreal/Git/tualiens/Twaliens/Saved/Config/Windows/Engine.ini]
-[2019.02.27-13.13.35:216][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Proyectos/Unreal/Git/tualiens/Twaliens/Saved/Config/Windows/Engine.ini]
-[2019.02.27-13.13.35:216][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.02.27-13.13.35:216][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.02.27-13.13.35:216][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.02.27-13.13.35:216][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.02.27-13.13.35:216][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.02.27-13.13.35:216][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.02.27-13.13.35:216][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.02.27-13.13.35:216][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.02.27-13.13.35:216][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.02.27-13.13.35:216][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.02.27-13.13.35:216][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.02.27-13.13.35:216][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.02.27-13.13.35:216][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.02.27-13.13.35:216][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Proyectos/Unreal/Git/tualiens/Twaliens/Saved/Config/Windows/Engine.ini]
-[2019.02.27-13.13.35:216][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.02.27-13.13.35:216][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.02.27-13.13.35:216][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.02.27-13.13.35:216][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.02.27-13.13.35:216][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.02.27-13.13.35:216][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.02.27-13.13.35:216][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
-[2019.02.27-13.13.35:216][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.02.27-13.13.35:216][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.02.27-13.13.35:216][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
-[2019.02.27-13.13.35:216][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.02.27-13.13.35:216][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.02.27-13.13.35:216][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.02.27-13.13.35:216][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.02.27-13.13.35:216][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Proyectos/Unreal/Git/tualiens/Twaliens/Saved/Config/Windows/Engine.ini]
-[2019.02.27-13.13.35:216][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Proyectos/Unreal/Git/tualiens/Twaliens/Saved/Config/Windows/Engine.ini]
-[2019.02.27-13.13.35:222][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Proyectos/Unreal/Git/tualiens/Twaliens/Saved/Config/Windows/Scalability.ini]
-[2019.02.27-13.13.35:222][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.02.27-13.13.35:222][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.02.27-13.13.35:222][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Proyectos/Unreal/Git/tualiens/Twaliens/Saved/Config/Windows/Scalability.ini]
-[2019.02.27-13.13.35:222][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.02.27-13.13.35:222][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Proyectos/Unreal/Git/tualiens/Twaliens/Saved/Config/Windows/Scalability.ini]
-[2019.02.27-13.13.35:222][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.02.27-13.13.35:222][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.02.27-13.13.35:222][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Proyectos/Unreal/Git/tualiens/Twaliens/Saved/Config/Windows/Scalability.ini]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.02.27-13.13.35:223][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.02.27-13.13.35:224][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.02.27-13.13.35:224][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.02.27-13.13.35:224][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.02.27-13.13.35:224][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Proyectos/Unreal/Git/tualiens/Twaliens/Saved/Config/Windows/Scalability.ini]
-[2019.02.27-13.13.35:224][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.02.27-13.13.35:224][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.02.27-13.13.35:224][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.02.27-13.13.35:224][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.02.27-13.13.35:224][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.02.27-13.13.35:224][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.02.27-13.13.35:224][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.02.27-13.13.35:224][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.02.27-13.13.35:224][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Proyectos/Unreal/Git/tualiens/Twaliens/Saved/Config/Windows/Scalability.ini]
-[2019.02.27-13.13.35:224][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.02.27-13.13.35:224][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.02.27-13.13.35:224][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.02.27-13.13.35:224][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.02.27-13.13.35:224][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.02.27-13.13.35:224][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.02.27-13.13.35:224][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.02.27-13.13.35:224][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.02.27-13.13.35:224][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.02.27-13.13.35:224][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.02.27-13.13.35:224][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.02.27-13.13.35:224][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.02.27-13.13.35:224][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.02.27-13.13.35:224][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Proyectos/Unreal/Git/tualiens/Twaliens/Saved/Config/Windows/Scalability.ini]
-[2019.02.27-13.13.35:224][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.02.27-13.13.35:224][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.02.27-13.13.35:225][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.27-13.13.35:225][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.02.27-13.13.35:258][  0]LogHAL: Display: Platform has ~ 8 GB [8409358336 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.02.27-13.13.35:259][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
-[2019.02.27-13.13.35:259][  0]LogInit: Going up to parent DeviceProfile []
-[2019.02.27-13.13.35:259][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Proyectos/Unreal/Git/tualiens/Twaliens/Saved/Config/Windows/Scalability.ini]
-[2019.02.27-13.13.35:259][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.02.27-13.13.35:259][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.02.27-13.13.35:259][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Proyectos/Unreal/Git/tualiens/Twaliens/Saved/Config/Windows/Scalability.ini]
-[2019.02.27-13.13.35:259][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.02.27-13.13.35:259][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Proyectos/Unreal/Git/tualiens/Twaliens/Saved/Config/Windows/Scalability.ini]
-[2019.02.27-13.13.35:259][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.02.27-13.13.35:259][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.02.27-13.13.35:259][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Proyectos/Unreal/Git/tualiens/Twaliens/Saved/Config/Windows/Scalability.ini]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Proyectos/Unreal/Git/tualiens/Twaliens/Saved/Config/Windows/Scalability.ini]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.02.27-13.13.35:260][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Proyectos/Unreal/Git/tualiens/Twaliens/Saved/Config/Windows/Scalability.ini]
-[2019.02.27-13.13.35:261][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.02.27-13.13.35:261][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.02.27-13.13.35:261][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.02.27-13.13.35:261][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.02.27-13.13.35:261][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.02.27-13.13.35:261][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.02.27-13.13.35:261][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.02.27-13.13.35:261][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.02.27-13.13.35:261][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.02.27-13.13.35:261][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.02.27-13.13.35:261][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.02.27-13.13.35:261][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.02.27-13.13.35:261][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.02.27-13.13.35:261][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Proyectos/Unreal/Git/tualiens/Twaliens/Saved/Config/Windows/Scalability.ini]
-[2019.02.27-13.13.35:261][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.02.27-13.13.35:261][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.02.27-13.13.35:261][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.02.27-13.13.35:269][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.02.27-13.13.35:269][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Proyectos/Unreal/Git/tualiens/Twaliens/Saved/Config/Windows/Engine.ini]
-[2019.02.27-13.13.35:270][  0]LogInit: Computer: DESKTOP-RDCR997
-[2019.02.27-13.13.35:270][  0]LogInit: User: davir
-[2019.02.27-13.13.35:270][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.02.27-13.13.35:270][  0]LogInit: High frequency timer resolution =2.531250 MHz
-[2019.02.27-13.13.35:270][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
-[2019.02.27-13.13.35:270][  0]LogMemory: Platform Memory Stats for Windows
-[2019.02.27-13.13.35:270][  0]LogMemory: Process Physical Memory: 102.38 MB used, 102.38 MB peak
-[2019.02.27-13.13.35:270][  0]LogMemory: Process Virtual Memory: 89.63 MB used, 89.63 MB peak
-[2019.02.27-13.13.35:270][  0]LogMemory: Physical Memory: 7256.04 MB used,  763.75 MB free, 8019.79 MB total
-[2019.02.27-13.13.35:270][  0]LogMemory: Virtual Memory: 4646.36 MB used,  134213080.00 MB free, 134217728.00 MB total
-[2019.02.27-13.13.35:543][  0]LogInit: Overriding language with editor language configuration option (en).
-[2019.02.27-13.13.35:543][  0]LogInit: Overriding locale with editor locale configuration option (en).
-[2019.02.27-13.13.36:226][  0]LogStreaming: Display: Took  0.684s to InitEngineTextLocalization.
-[2019.02.27-13.13.36:226][  0]LogInit: Setting process to per monitor DPI aware
-[2019.02.27-13.13.36:370][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.02.27-13.13.36:370][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.02.27-13.13.40:145][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.02.27-13.13.40:145][  0]LogD3D11RHI: D3D11 adapters:
-[2019.02.27-13.13.40:312][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
-[2019.02.27-13.13.40:312][  0]LogD3D11RHI:       2010/0/4009 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.02.27-13.13.40:334][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2019.02.27-13.13.40:334][  0]LogD3D11RHI:       128/0/4009 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.02.27-13.13.40:337][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.02.27-13.13.40:337][  0]LogD3D11RHI:       0/0/4009 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.02.27-13.13.40:337][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.02.27-13.13.40:389][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.02.27-13.13.40:389][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
-[2019.02.27-13.13.40:389][  0]LogWindows: EnumDisplayDevices:
-[2019.02.27-13.13.40:389][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
-[2019.02.27-13.13.40:390][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2019.02.27-13.13.40:390][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2019.02.27-13.13.40:390][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2019.02.27-13.13.40:390][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
-[2019.02.27-13.13.40:390][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.02.27-13.13.40:390][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.02.27-13.13.40:390][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
-[2019.02.27-13.13.40:459][  0]LogD3D11RHI: Async texture creation enabled
-[2019.02.27-13.13.40:495][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.02.27-13.13.41:205][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.02.27-13.13.41:234][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.02.27-13.13.41:270][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.02.27-13.13.41:305][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.02.27-13.13.41:349][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.02.27-13.13.41:386][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.02.27-13.13.41:418][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.02.27-13.13.41:452][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.02.27-13.13.41:477][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.02.27-13.13.41:616][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.27-13.13.41:617][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.27-13.13.41:617][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.27-13.13.41:617][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.27-13.13.41:617][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.27-13.13.41:617][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.27-13.13.41:617][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.27-13.13.41:617][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.27-13.13.41:617][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.27-13.13.41:617][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.27-13.13.41:617][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.27-13.13.41:617][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.27-13.13.41:617][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.27-13.13.41:617][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.27-13.13.41:617][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.27-13.13.41:617][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.27-13.13.41:617][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.27-13.13.41:617][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.27-13.13.41:634][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.02.27-13.13.41:762][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.02.27-13.13.41:762][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.02.27-13.13.41:816][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.02.27-13.13.41:816][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.02.27-13.13.41:850][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.02.27-13.13.41:886][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.02.27-13.13.41:921][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.02.27-13.13.41:966][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.02.27-13.13.42:052][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.02.27-13.13.42:052][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.02.27-13.13.42:052][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.02.27-13.13.42:546][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (../../../../../Proyectos/Unreal/Git/tualiens/Twaliens/Intermediate/Shaders/WorkingDirectory/27328/).
-[2019.02.27-13.13.42:546][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/davir/AppData/Local/Temp/UnrealShaderWorkingDir/9A5E5FE5447E4419FF8BC4B3A0E4D847/'.
-[2019.02.27-13.13.42:549][  0]LogXGEController: Cleaning working directory: C:/Users/davir/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.02.27-13.13.42:561][  0]LogShaderCompilers: Display: Using XGE Shader Compiler (Interception Interface).
-[2019.02.27-13.13.45:367][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.02.27-13.13.45:499][  0]LogDerivedDataCache: Loaded boot cache 0.13s 71MB C:/Users/davir/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.02.27-13.13.45:499][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/davir/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
-[2019.02.27-13.13.45:499][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Proyectos/Unreal/Git/tualiens/Twaliens/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.02.27-13.13.45:499][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.02.27-13.13.45:499][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Proyectos/Unreal/Git/tualiens/Twaliens/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.02.27-13.13.45:499][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.02.27-13.13.45:526][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.02.27-13.13.45:526][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.02.27-13.13.45:526][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.02.27-13.13.45:539][  0]LogDerivedDataCache: Using Local data cache path C:/Users/davir/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.02.27-13.13.45:539][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.02.27-13.13.45:539][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.02.27-13.13.45:581][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.02.27-13.13.45:589][  0]LogSlate: Using FreeType 2.6.0
-[2019.02.27-13.13.45:617][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.02.27-13.13.46:080][  0]LogAssetRegistry: FAssetRegistry took 0.0414 seconds to start up
-[2019.02.27-13.13.46:789][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.27-13.13.47:498][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.02.27-13.13.47:561][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.02.27-13.13.47:562][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.02.27-13.13.47:563][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.02.27-13.13.47:563][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.02.27-13.13.47:634][  0]LogNetVersion: Twaliens 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3205813117)
-[2019.02.27-13.13.49:421][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.126337 seconds
-[2019.02.27-13.13.49:434][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
-[2019.02.27-13.13.49:434][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
-[2019.02.27-13.13.49:435][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.02.27-13.13.55:002][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.02.27-13.13.55:038][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.02.27-13.13.56:649][  0]LogLinker: Warning: Can't find file '/Game/Weapons/BP_ProjectileA'
-[2019.02.27-13.13.56:650][  0]LogLinker: Warning: Can't find file '/Game/Weapons/BP_ProjectileA'
-[2019.02.27-13.13.56:650][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/Weapons/BP_ProjectileA.BP_ProjectileA_C'
-[2019.02.27-13.13.56:650][  0]Error: CDO Constructor (Weapon): Failed to find /Game/Weapons/BP_ProjectileA.BP_ProjectileA_C
+[2019.02.27-15.00.51:329][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.02.27-15.00.51:329][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.02.27-15.00.51:329][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Master de videojuegos Madrid/repogit/Twaliens/Saved/Config/Windows/Engine.ini]
+[2019.02.27-15.00.51:329][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.02.27-15.00.51:329][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Master de videojuegos Madrid/repogit/Twaliens/Saved/Config/Windows/Engine.ini]
+[2019.02.27-15.00.51:329][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Master de videojuegos Madrid/repogit/Twaliens/Saved/Config/Windows/Engine.ini]
+[2019.02.27-15.00.51:329][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.02.27-15.00.51:329][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.02.27-15.00.51:329][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.02.27-15.00.51:329][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.02.27-15.00.51:329][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.02.27-15.00.51:329][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.02.27-15.00.51:329][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.02.27-15.00.51:329][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.02.27-15.00.51:330][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.02.27-15.00.51:330][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.02.27-15.00.51:330][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.02.27-15.00.51:330][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.02.27-15.00.51:330][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.02.27-15.00.51:330][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Master de videojuegos Madrid/repogit/Twaliens/Saved/Config/Windows/Engine.ini]
+[2019.02.27-15.00.51:330][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.02.27-15.00.51:330][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.02.27-15.00.51:330][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.02.27-15.00.51:330][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.02.27-15.00.51:330][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.02.27-15.00.51:330][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.02.27-15.00.51:330][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.02.27-15.00.51:330][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.02.27-15.00.51:330][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.02.27-15.00.51:330][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.02.27-15.00.51:330][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.02.27-15.00.51:330][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.02.27-15.00.51:330][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.02.27-15.00.51:330][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.02.27-15.00.51:330][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Master de videojuegos Madrid/repogit/Twaliens/Saved/Config/Windows/Engine.ini]
+[2019.02.27-15.00.51:330][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Master de videojuegos Madrid/repogit/Twaliens/Saved/Config/Windows/Engine.ini]
+[2019.02.27-15.00.51:332][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Master de videojuegos Madrid/repogit/Twaliens/Saved/Config/Windows/Scalability.ini]
+[2019.02.27-15.00.51:332][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.02.27-15.00.51:332][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.02.27-15.00.51:332][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Master de videojuegos Madrid/repogit/Twaliens/Saved/Config/Windows/Scalability.ini]
+[2019.02.27-15.00.51:332][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.02.27-15.00.51:332][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Master de videojuegos Madrid/repogit/Twaliens/Saved/Config/Windows/Scalability.ini]
+[2019.02.27-15.00.51:332][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.02.27-15.00.51:332][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.02.27-15.00.51:332][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.02.27-15.00.51:332][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.02.27-15.00.51:332][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.02.27-15.00.51:332][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.02.27-15.00.51:332][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.02.27-15.00.51:332][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.02.27-15.00.51:332][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.02.27-15.00.51:332][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.02.27-15.00.51:332][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.02.27-15.00.51:332][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.02.27-15.00.51:332][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.02.27-15.00.51:332][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.02.27-15.00.51:332][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Master de videojuegos Madrid/repogit/Twaliens/Saved/Config/Windows/Scalability.ini]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Master de videojuegos Madrid/repogit/Twaliens/Saved/Config/Windows/Scalability.ini]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Master de videojuegos Madrid/repogit/Twaliens/Saved/Config/Windows/Scalability.ini]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Master de videojuegos Madrid/repogit/Twaliens/Saved/Config/Windows/Scalability.ini]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.02.27-15.00.51:333][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.02.27-15.00.51:333][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.27-15.00.51:333][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.27-15.00.51:348][  0]LogHAL: Display: Platform has ~ 12 GB [12824223744 / 17179869184 / 12], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.02.27-15.00.51:348][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.27-15.00.51:348][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Master de videojuegos Madrid/repogit/Twaliens/Saved/Config/Windows/Scalability.ini]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Master de videojuegos Madrid/repogit/Twaliens/Saved/Config/Windows/Scalability.ini]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Master de videojuegos Madrid/repogit/Twaliens/Saved/Config/Windows/Scalability.ini]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Master de videojuegos Madrid/repogit/Twaliens/Saved/Config/Windows/Scalability.ini]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.02.27-15.00.51:348][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.02.27-15.00.51:349][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Master de videojuegos Madrid/repogit/Twaliens/Saved/Config/Windows/Scalability.ini]
+[2019.02.27-15.00.51:349][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.02.27-15.00.51:349][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.02.27-15.00.51:349][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.02.27-15.00.51:349][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.02.27-15.00.51:349][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.02.27-15.00.51:349][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.02.27-15.00.51:349][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.02.27-15.00.51:349][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.02.27-15.00.51:349][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Master de videojuegos Madrid/repogit/Twaliens/Saved/Config/Windows/Scalability.ini]
+[2019.02.27-15.00.51:349][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.02.27-15.00.51:349][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.02.27-15.00.51:349][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.02.27-15.00.51:349][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.02.27-15.00.51:349][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.02.27-15.00.51:349][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.02.27-15.00.51:349][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.02.27-15.00.51:349][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.02.27-15.00.51:349][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.02.27-15.00.51:349][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.02.27-15.00.51:349][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.02.27-15.00.51:349][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.02.27-15.00.51:349][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.02.27-15.00.51:349][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Master de videojuegos Madrid/repogit/Twaliens/Saved/Config/Windows/Scalability.ini]
+[2019.02.27-15.00.51:349][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.02.27-15.00.51:349][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.02.27-15.00.51:349][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.02.27-15.00.51:349][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.02.27-15.00.51:349][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Master de videojuegos Madrid/repogit/Twaliens/Saved/Config/Windows/Engine.ini]
+[2019.02.27-15.00.51:349][  0]LogInit: Computer: DESKTOP-A4H91BA
+[2019.02.27-15.00.51:350][  0]LogInit: User: Usuario
+[2019.02.27-15.00.51:350][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.02.27-15.00.51:350][  0]LogInit: High frequency timer resolution =3.123197 MHz
+[2019.02.27-15.00.51:350][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2019.02.27-15.00.51:350][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.27-15.00.51:350][  0]LogMemory: Process Physical Memory: 106.61 MB used, 106.61 MB peak
+[2019.02.27-15.00.51:350][  0]LogMemory: Process Virtual Memory: 90.43 MB used, 90.43 MB peak
+[2019.02.27-15.00.51:350][  0]LogMemory: Physical Memory: 5236.27 MB used,  6993.86 MB free, 12230.13 MB total
+[2019.02.27-15.00.51:350][  0]LogMemory: Virtual Memory: 4697.63 MB used,  134213032.00 MB free, 134217728.00 MB total
+[2019.02.27-15.00.51:380][  0]LogInit: Overriding language with editor language configuration option (en-IE).
+[2019.02.27-15.00.51:380][  0]LogInit: Overriding locale with editor culture configuration option ().
+[2019.02.27-15.00.51:380][  0]LogInit: Using OS detected locale (es-MX).
+[2019.02.27-15.00.51:381][  0]LogTextLocalizationManager: No specific localization for 'en-IE' exists, so the 'en' localization will be used.
+[2019.02.27-15.00.51:803][  0]LogStreaming: Display: Took  0.423s to InitEngineTextLocalization.
+[2019.02.27-15.00.51:803][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.27-15.00.51:847][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.27-15.00.51:847][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.27-15.00.52:249][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.27-15.00.52:249][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.27-15.00.52:330][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2019.02.27-15.00.52:330][  0]LogD3D11RHI:       8088/0/6115 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.02.27-15.00.52:333][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.27-15.00.52:333][  0]LogD3D11RHI:       0/0/6115 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.27-15.00.52:333][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.27-15.00.52:341][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.27-15.00.52:341][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.27-15.00.52:341][  0]LogWindows: EnumDisplayDevices:
+[2019.02.27-15.00.52:341][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2019.02.27-15.00.52:342][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.02.27-15.00.52:342][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.02.27-15.00.52:343][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.02.27-15.00.52:343][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.02.27-15.00.52:343][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2019.02.27-15.00.52:343][  0]LogD3D11RHI:   Driver Version: 419.17 (internal:25.21.14.1917, unified:419.17)
+[2019.02.27-15.00.52:343][  0]LogD3D11RHI:      Driver Date: 2-20-2019
+[2019.02.27-15.00.52:343][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2019.02.27-15.00.52:397][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.27-15.00.52:422][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.02.27-15.00.52:863][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.27-15.00.52:885][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.27-15.00.52:902][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.27-15.00.52:917][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.27-15.00.52:933][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.27-15.00.52:949][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.27-15.00.52:965][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.27-15.00.52:981][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.27-15.00.52:989][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.27-15.00.53:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.27-15.00.53:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.27-15.00.53:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.27-15.00.53:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.27-15.00.53:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.27-15.00.53:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.27-15.00.53:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.27-15.00.53:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.27-15.00.53:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.27-15.00.53:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.27-15.00.53:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.27-15.00.53:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.27-15.00.53:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.27-15.00.53:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.27-15.00.53:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.27-15.00.53:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.27-15.00.53:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.27-15.00.53:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.27-15.00.53:070][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.27-15.00.53:135][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.27-15.00.53:135][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.27-15.00.53:160][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.27-15.00.53:160][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.27-15.00.53:174][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.27-15.00.53:187][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.27-15.00.53:201][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.27-15.00.53:215][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.27-15.00.53:262][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.27-15.00.53:262][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.27-15.00.53:262][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.27-15.00.53:362][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../../Master de videojuegos Madrid/repogit/Twaliens/Intermediate/Shaders/WorkingDirectory/14076/).
+[2019.02.27-15.00.53:362][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Usuario/AppData/Local/Temp/UnrealShaderWorkingDir/3FB4D6084EE2D370DFD46F8A71514126/'.
+[2019.02.27-15.00.53:366][  0]LogXGEController: Cleaning working directory: C:/Users/Usuario/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.02.27-15.00.53:366][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.27-15.00.53:366][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.27-15.00.53:366][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.27-15.00.53:952][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.27-15.00.54:035][  0]LogDerivedDataCache: Loaded boot cache 0.08s 71MB C:/Users/Usuario/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.02.27-15.00.54:035][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Usuario/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.02.27-15.00.54:035][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Master de videojuegos Madrid/repogit/Twaliens/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.27-15.00.54:035][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.27-15.00.54:035][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../Master de videojuegos Madrid/repogit/Twaliens/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.27-15.00.54:036][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.27-15.00.54:049][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.27-15.00.54:049][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.27-15.00.54:049][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.02.27-15.00.54:062][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Usuario/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.27-15.00.54:062][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.27-15.00.54:062][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.27-15.00.54:090][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.27-15.00.54:092][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.27-15.00.54:093][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.27-15.00.54:215][  0]LogAssetRegistry: FAssetRegistry took 0.0343 seconds to start up
+[2019.02.27-15.00.54:556][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.27-15.00.54:648][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.27-15.00.54:655][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.27-15.00.54:655][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.27-15.00.54:655][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.27-15.00.54:655][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.27-15.00.54:758][  0]LogNetVersion: Twaliens 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3205813117)
+[2019.02.27-15.00.55:408][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.104908 seconds
+[2019.02.27-15.00.55:418][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.02.27-15.00.55:418][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
+[2019.02.27-15.00.55:418][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.27-15.00.56:615][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.27-15.00.56:629][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.27-15.00.57:661][  0]LogLinker: Warning: Can't find file '/Game/Weapons/BP_ProjectileA'
+[2019.02.27-15.00.57:661][  0]LogLinker: Warning: Can't find file '/Game/Weapons/BP_ProjectileA'
+[2019.02.27-15.00.57:661][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/Weapons/BP_ProjectileA.BP_ProjectileA_C'
+[2019.02.27-15.00.57:661][  0]Error: CDO Constructor (Weapon): Failed to find /Game/Weapons/BP_ProjectileA.BP_ProjectileA_C
 
-[2019.02.27-13.13.56:650][  0]Error: CDO Constructor (Weapon): Failed to find /Game/Weapons/BP_ProjectileA.BP_ProjectileA_C
+[2019.02.27-15.00.57:661][  0]Error: CDO Constructor (Weapon): Failed to find /Game/Weapons/BP_ProjectileA.BP_ProjectileA_C
 
-[2019.02.27-13.13.56:776][  0]LogLinker: Warning: Can't find file '/Game/Characters/BasicWarrior/BP_BasicWarriorController_0'
-[2019.02.27-13.13.56:776][  0]LogLinker: Warning: Can't find file for asset '/Game/Characters/BasicWarrior/BP_BasicWarriorController_0' while loading ../../../../../Proyectos/Unreal/Git/tualiens/Twaliens/Content/Characters/BasicWarrior/BP_BasicWarrior_0.uasset.
-[2019.02.27-13.13.56:777][  0]LoadErrors: Error: /Game/Characters/BasicWarrior/BP_BasicWarrior_0 : Can't find file for asset. /Game/Characters/BasicWarrior/BP_BasicWarriorController_0
-[2019.02.27-13.13.56:778][  0]LogLinker: Warning: Can't find file '/Game/Characters/BasicWarrior/BP_BasicWarriorController_0'
-[2019.02.27-13.13.56:778][  0]LogLinker: Warning: Can't find file for asset '/Game/Characters/BasicWarrior/BP_BasicWarriorController_0' while loading ../../../../../Proyectos/Unreal/Git/tualiens/Twaliens/Content/Characters/BasicWarrior/BP_BasicWarrior_0.uasset.
-[2019.02.27-13.13.56:778][  0]LoadErrors: Error: /Game/Characters/BasicWarrior/BP_BasicWarrior_0 : Can't find file for asset. /Game/Characters/BasicWarrior/BP_BasicWarriorController_0
-[2019.02.27-13.13.56:814][  0]LogLinker: Warning: Can't find file '/Game/Characters/BasicWarrior/BP_BasicWarriorController_0'
-[2019.02.27-13.13.56:814][  0]LogLinker: Warning: Can't find file for asset '/Game/Characters/BasicWarrior/BP_BasicWarriorController_0' while loading NULL.
-[2019.02.27-13.13.56:814][  0]LogLinker: Warning: Can't find file '/Game/Characters/BasicWarrior/BP_BasicWarriorController_0'
-[2019.02.27-13.13.56:814][  0]LogLinker: Warning: Can't find file for asset '/Game/Characters/BasicWarrior/BP_BasicWarriorController_0' while loading NULL.
-[2019.02.27-13.13.56:815][  0]LogLinker: Warning: Can't find file '/Game/Characters/BasicWarrior/BP_BasicWarriorController_0'
-[2019.02.27-13.13.56:816][  0]LoadErrors: Failed to load /Game/Characters/BasicWarrior/BP_BasicWarriorController_0.BP_BasicWarriorController_0_C Referenced by Default__BP_BasicWarrior_0_C
-[2019.02.27-13.13.56:816][  0]LogLinker: Warning: Can't find file for asset '/Game/Characters/BasicWarrior/BP_BasicWarriorController_0' while loading NULL.
-[2019.02.27-13.13.56:816][  0]LoadErrors: Failed to load /Game/Characters/BasicWarrior/BP_BasicWarriorController_0.BP_BasicWarriorController_0_C Referenced by Default__BP_BasicWarrior_0_C
-[2019.02.27-13.13.57:040][  0]LogUObjectBase: Warning: -------------- Default Property warnings and errors:
-[2019.02.27-13.13.57:040][  0]LogUObjectBase: Warning: Error: CDO Constructor (Weapon): Failed to find /Game/Weapons/BP_ProjectileA.BP_ProjectileA_C
+[2019.02.27-15.00.57:703][  0]LogLinker: Warning: Can't find file '/Game/Characters/BasicWarrior/BP_BasicWarriorController_0'
+[2019.02.27-15.00.57:703][  0]LogLinker: Warning: Can't find file for asset '/Game/Characters/BasicWarrior/BP_BasicWarriorController_0' while loading ../../../../../../../Master de videojuegos Madrid/repogit/Twaliens/Content/Characters/BasicWarrior/BP_BasicWarrior_0.uasset.
+[2019.02.27-15.00.57:704][  0]LoadErrors: Error: /Game/Characters/BasicWarrior/BP_BasicWarrior_0 : Can't find file for asset. /Game/Characters/BasicWarrior/BP_BasicWarriorController_0
+[2019.02.27-15.00.57:704][  0]LogLinker: Warning: Can't find file '/Game/Characters/BasicWarrior/BP_BasicWarriorController_0'
+[2019.02.27-15.00.57:705][  0]LogLinker: Warning: Can't find file for asset '/Game/Characters/BasicWarrior/BP_BasicWarriorController_0' while loading ../../../../../../../Master de videojuegos Madrid/repogit/Twaliens/Content/Characters/BasicWarrior/BP_BasicWarrior_0.uasset.
+[2019.02.27-15.00.57:705][  0]LoadErrors: Error: /Game/Characters/BasicWarrior/BP_BasicWarrior_0 : Can't find file for asset. /Game/Characters/BasicWarrior/BP_BasicWarriorController_0
+[2019.02.27-15.00.57:713][  0]LogLinker: Warning: Can't find file '/Game/Characters/BasicWarrior/BP_BasicWarriorController_0'
+[2019.02.27-15.00.57:713][  0]LogLinker: Warning: Can't find file for asset '/Game/Characters/BasicWarrior/BP_BasicWarriorController_0' while loading NULL.
+[2019.02.27-15.00.57:713][  0]LogLinker: Warning: Can't find file '/Game/Characters/BasicWarrior/BP_BasicWarriorController_0'
+[2019.02.27-15.00.57:713][  0]LogLinker: Warning: Can't find file for asset '/Game/Characters/BasicWarrior/BP_BasicWarriorController_0' while loading NULL.
+[2019.02.27-15.00.57:714][  0]LogLinker: Warning: Can't find file '/Game/Characters/BasicWarrior/BP_BasicWarriorController_0'
+[2019.02.27-15.00.57:714][  0]LoadErrors: Failed to load /Game/Characters/BasicWarrior/BP_BasicWarriorController_0.BP_BasicWarriorController_0_C Referenced by Default__BP_BasicWarrior_0_C
+[2019.02.27-15.00.57:714][  0]LogLinker: Warning: Can't find file for asset '/Game/Characters/BasicWarrior/BP_BasicWarriorController_0' while loading NULL.
+[2019.02.27-15.00.57:714][  0]LoadErrors: Failed to load /Game/Characters/BasicWarrior/BP_BasicWarriorController_0.BP_BasicWarriorController_0_C Referenced by Default__BP_BasicWarrior_0_C
+[2019.02.27-15.00.57:772][  0]LogUObjectBase: Warning: -------------- Default Property warnings and errors:
+[2019.02.27-15.00.57:772][  0]LogUObjectBase: Warning: Error: CDO Constructor (Weapon): Failed to find /Game/Weapons/BP_ProjectileA.BP_ProjectileA_C
 
-[2019.02.27-13.13.57:040][  0]LogUObjectBase: Warning: Error: CDO Constructor (Weapon): Failed to find /Game/Weapons/BP_ProjectileA.BP_ProjectileA_C
+[2019.02.27-15.00.57:772][  0]LogUObjectBase: Warning: Error: CDO Constructor (Weapon): Failed to find /Game/Weapons/BP_ProjectileA.BP_ProjectileA_C
 
-[2019.02.27-13.13.57:069][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.02.27-13.14.52:784][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.02.27-13.14.52:786][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.02.27-13.14.53:150][  0]SourceControl: Source control is disabled
-[2019.02.27-13.14.53:151][  0]SourceControl: Source control is disabled
-[2019.02.27-13.14.54:021][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.02.27-13.14.54:268][  0]LogOcInput: OculusInput pre-init called
-[2019.02.27-13.14.54:657][  0]LogEngine: Initializing Engine...
-[2019.02.27-13.14.54:663][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.02.27-13.14.54:668][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.02.27-13.14.54:668][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.27-13.14.54:668][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.02.27-13.14.54:668][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.27-13.14.55:256][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.02.27-13.14.55:513][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.02.27-13.14.55:609][  0]LogInit: XAudio2 using 'Altavoces (2- USB PnP Sound Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.02.27-13.14.55:732][  0]LogInit: FAudioDevice initialized.
-[2019.02.27-13.14.55:737][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.02.27-13.14.55:812][  0]LogDerivedDataCache: Saved boot cache 0.07s 75MB C:/Users/davir/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.02.27-13.14.55:828][  0]LogInit: Texture streaming: Enabled
-[2019.02.27-13.14.55:926][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.02.27-13.14.56:128][  0]LogInit: Transaction tracking system initialized
-[2019.02.27-13.14.56:281][  0]BlueprintLog: New page: Editor Load
-[2019.02.27-13.14.57:056][  0]LocalizationService: Localization service is disabled
-[2019.02.27-13.14.57:915][  0]DDCNotifications: Shared DDC not detected, performance notification enabled
-[2019.02.27-13.14.58:593][  0]LogFileCache: Scanning file cache for directory 'D:/Proyectos/Unreal/Git/tualiens/Twaliens/Content/' took 0.02s
-[2019.02.27-13.14.58:593][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.02.27-13.14.58:593][  0]LogCook: Display: Mobile HDR setting 1
-[2019.02.27-13.14.58:594][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.02.27-13.14.58:596][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.02.27-13.14.58:596][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.27-13.14.58:596][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.02.27-13.14.58:596][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.27-13.14.59:729][  0]SourceControl: Error: P4ERROR: Failed to connect to source control provider.
-[2019.02.27-13.14.59:729][  0]SourceControl: Error: Perforce password (P4PASSWD) invalid or unset.
+[2019.02.27-15.00.57:782][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.02.27-15.00.59:807][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.02.27-15.00.59:810][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.02.27-15.00.59:882][  0]SourceControl: Source control is disabled
+[2019.02.27-15.00.59:882][  0]SourceControl: Source control is disabled
+[2019.02.27-15.01.00:069][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.27-15.01.00:236][  0]LogOcInput: OculusInput pre-init called
+[2019.02.27-15.01.00:386][  0]LogEngine: Initializing Engine...
+[2019.02.27-15.01.00:386][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.27-15.01.00:388][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.27-15.01.00:388][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.27-15.01.00:388][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.27-15.01.00:388][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.27-15.01.00:663][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.27-15.01.00:687][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.27-15.01.00:824][  0]LogInit: XAudio2 using 'Altavoces (USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.27-15.01.00:846][  0]LogInit: FAudioDevice initialized.
+[2019.02.27-15.01.00:846][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.27-15.01.01:033][  0]LogDerivedDataCache: Saved boot cache 0.19s 75MB C:/Users/Usuario/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.02.27-15.01.01:051][  0]LogInit: Texture streaming: Enabled
+[2019.02.27-15.01.01:083][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.27-15.01.01:106][  0]LogInit: Transaction tracking system initialized
+[2019.02.27-15.01.01:151][  0]BlueprintLog: New page: Editor Load
+[2019.02.27-15.01.01:360][  0]LocalizationService: Localization service is disabled
+[2019.02.27-15.01.01:675][  0]DDCNotifications: Shared DDC not detected, performance notification enabled
+[2019.02.27-15.01.01:896][  0]LogFileCache: Scanning file cache for directory 'D:/Master de videojuegos Madrid/repogit/Twaliens/Content/' took 0.02s
+[2019.02.27-15.01.01:896][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.27-15.01.01:896][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.27-15.01.01:896][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.27-15.01.01:896][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.27-15.01.01:896][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.27-15.01.01:896][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.27-15.01.01:896][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.27-15.01.02:176][  0]Cmd: MAP LOAD FILE="../../../../../../../Master de videojuegos Madrid/repogit/Twaliens/Content/Maps/TestMap/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.27-15.01.02:177][  0]LightingResults: New page: Lighting Build
+[2019.02.27-15.01.02:182][  0]MapCheck: New page: Map Check
+[2019.02.27-15.01.02:182][  0]LightingResults: New page: Lighting Build
+[2019.02.27-15.01.02:300][  0]LogLinker: Warning: Can't find file '/Game/Maps/TestMap/TestMap_BuiltData'
+[2019.02.27-15.01.02:300][  0]LogLinker: Warning: Can't find file for asset '/Game/Maps/TestMap/TestMap_BuiltData' while loading ../../../../../../../Master de videojuegos Madrid/repogit/Twaliens/Content/Maps/TestMap/TestMap.umap.
+[2019.02.27-15.01.02:300][  0]LoadErrors: Error: /Game/Maps/TestMap/TestMap : Can't find file for asset. /Game/Maps/TestMap/TestMap_BuiltData
+[2019.02.27-15.01.02:301][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Blue'
+[2019.02.27-15.01.02:302][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Blue' while loading ../../../../../../../Master de videojuegos Madrid/repogit/Twaliens/Content/Maps/TestMap/TestMap.umap.
+[2019.02.27-15.01.02:302][  0]LoadErrors: Error: /Game/Maps/TestMap/TestMap : Can't find file for asset. /Game/Materials/M_Blue
+[2019.02.27-15.01.02:302][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Red'
+[2019.02.27-15.01.02:303][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Red' while loading ../../../../../../../Master de videojuegos Madrid/repogit/Twaliens/Content/Maps/TestMap/TestMap.umap.
+[2019.02.27-15.01.02:303][  0]LoadErrors: Error: /Game/Maps/TestMap/TestMap : Can't find file for asset. /Game/Materials/M_Red
+[2019.02.27-15.01.02:310][  0]LogLinker: Warning: Can't find file '/Game/Maps/TestMap/TestMap_BuiltData'
+[2019.02.27-15.01.02:310][  0]LogLinker: Warning: Can't find file for asset '/Game/Maps/TestMap/TestMap_BuiltData' while loading ../../../../../../../Master de videojuegos Madrid/repogit/Twaliens/Content/Maps/TestMap/TestMap.umap.
+[2019.02.27-15.01.02:310][  0]LoadErrors: Error: /Game/Maps/TestMap/TestMap : Can't find file for asset. /Game/Maps/TestMap/TestMap_BuiltData
+[2019.02.27-15.01.02:310][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Blue'
+[2019.02.27-15.01.02:311][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Blue' while loading ../../../../../../../Master de videojuegos Madrid/repogit/Twaliens/Content/Maps/TestMap/TestMap.umap.
+[2019.02.27-15.01.02:311][  0]LoadErrors: Error: /Game/Maps/TestMap/TestMap : Can't find file for asset. /Game/Materials/M_Blue
+[2019.02.27-15.01.02:311][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Red'
+[2019.02.27-15.01.02:311][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Red' while loading ../../../../../../../Master de videojuegos Madrid/repogit/Twaliens/Content/Maps/TestMap/TestMap.umap.
+[2019.02.27-15.01.02:311][  0]LoadErrors: Error: /Game/Maps/TestMap/TestMap : Can't find file for asset. /Game/Materials/M_Red
+[2019.02.27-15.01.02:317][  0]LogLinker: Warning: Can't find file '/Game/Maps/TestMap/TestMap_BuiltData'
+[2019.02.27-15.01.02:317][  0]LogLinker: Warning: Can't find file for asset '/Game/Maps/TestMap/TestMap_BuiltData' while loading NULL.
+[2019.02.27-15.01.02:317][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Blue'
+[2019.02.27-15.01.02:318][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Blue' while loading NULL.
+[2019.02.27-15.01.02:318][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Red'
+[2019.02.27-15.01.02:318][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Red' while loading NULL.
+[2019.02.27-15.01.02:318][  0]LogLinker: Warning: Can't find file '/Game/Maps/TestMap/TestMap_BuiltData'
+[2019.02.27-15.01.02:318][  0]LogLinker: Warning: Can't find file for asset '/Game/Maps/TestMap/TestMap_BuiltData' while loading NULL.
+[2019.02.27-15.01.02:318][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Blue'
+[2019.02.27-15.01.02:318][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Blue' while loading NULL.
+[2019.02.27-15.01.02:318][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Red'
+[2019.02.27-15.01.02:318][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Red' while loading NULL.
+[2019.02.27-15.01.02:340][  0]Error: CDO Constructor (Weapon): Failed to find /Game/Weapons/BP_ProjectileA.BP_ProjectileA_C
 
-[2019.02.27-13.14.59:729][  0]SourceControl: Error: Port=ssl:perforce.ucm.es:8080, User=olafgomez, ClientSpec=UE_G4_Perforce, Ticket=
-[2019.02.27-13.14.59:731][  0]Cmd: MAP LOAD FILE="../../../../../Proyectos/Unreal/Git/tualiens/Twaliens/Content/Maps/TestMap/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.02.27-13.14.59:741][  0]LightingResults: New page: Lighting Build
-[2019.02.27-13.14.59:754][  0]MapCheck: New page: Map Check
-[2019.02.27-13.14.59:754][  0]LightingResults: New page: Lighting Build
-[2019.02.27-13.15.00:065][  0]LogLinker: Warning: Can't find file '/Game/Maps/TestMap/TestMap_BuiltData'
-[2019.02.27-13.15.00:065][  0]LogLinker: Warning: Can't find file for asset '/Game/Maps/TestMap/TestMap_BuiltData' while loading ../../../../../Proyectos/Unreal/Git/tualiens/Twaliens/Content/Maps/TestMap/TestMap.umap.
-[2019.02.27-13.15.00:065][  0]LoadErrors: Error: /Game/Maps/TestMap/TestMap : Can't find file for asset. /Game/Maps/TestMap/TestMap_BuiltData
-[2019.02.27-13.15.00:066][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Blue'
-[2019.02.27-13.15.00:067][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Blue' while loading ../../../../../Proyectos/Unreal/Git/tualiens/Twaliens/Content/Maps/TestMap/TestMap.umap.
-[2019.02.27-13.15.00:067][  0]LoadErrors: Error: /Game/Maps/TestMap/TestMap : Can't find file for asset. /Game/Materials/M_Blue
-[2019.02.27-13.15.00:067][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Red'
-[2019.02.27-13.15.00:067][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Red' while loading ../../../../../Proyectos/Unreal/Git/tualiens/Twaliens/Content/Maps/TestMap/TestMap.umap.
-[2019.02.27-13.15.00:067][  0]LoadErrors: Error: /Game/Maps/TestMap/TestMap : Can't find file for asset. /Game/Materials/M_Red
-[2019.02.27-13.15.00:092][  0]LogLinker: Warning: Can't find file '/Game/Maps/TestMap/TestMap_BuiltData'
-[2019.02.27-13.15.00:092][  0]LogLinker: Warning: Can't find file for asset '/Game/Maps/TestMap/TestMap_BuiltData' while loading ../../../../../Proyectos/Unreal/Git/tualiens/Twaliens/Content/Maps/TestMap/TestMap.umap.
-[2019.02.27-13.15.00:092][  0]LoadErrors: Error: /Game/Maps/TestMap/TestMap : Can't find file for asset. /Game/Maps/TestMap/TestMap_BuiltData
-[2019.02.27-13.15.00:092][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Blue'
-[2019.02.27-13.15.00:093][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Blue' while loading ../../../../../Proyectos/Unreal/Git/tualiens/Twaliens/Content/Maps/TestMap/TestMap.umap.
-[2019.02.27-13.15.00:093][  0]LoadErrors: Error: /Game/Maps/TestMap/TestMap : Can't find file for asset. /Game/Materials/M_Blue
-[2019.02.27-13.15.00:093][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Red'
-[2019.02.27-13.15.00:093][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Red' while loading ../../../../../Proyectos/Unreal/Git/tualiens/Twaliens/Content/Maps/TestMap/TestMap.umap.
-[2019.02.27-13.15.00:093][  0]LoadErrors: Error: /Game/Maps/TestMap/TestMap : Can't find file for asset. /Game/Materials/M_Red
-[2019.02.27-13.15.00:110][  0]LogLinker: Warning: Can't find file '/Game/Maps/TestMap/TestMap_BuiltData'
-[2019.02.27-13.15.00:110][  0]LogLinker: Warning: Can't find file for asset '/Game/Maps/TestMap/TestMap_BuiltData' while loading NULL.
-[2019.02.27-13.15.00:110][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Blue'
-[2019.02.27-13.15.00:110][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Blue' while loading NULL.
-[2019.02.27-13.15.00:111][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Red'
-[2019.02.27-13.15.00:111][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Red' while loading NULL.
-[2019.02.27-13.15.00:111][  0]LogLinker: Warning: Can't find file '/Game/Maps/TestMap/TestMap_BuiltData'
-[2019.02.27-13.15.00:111][  0]LogLinker: Warning: Can't find file for asset '/Game/Maps/TestMap/TestMap_BuiltData' while loading NULL.
-[2019.02.27-13.15.00:111][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Blue'
-[2019.02.27-13.15.00:111][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Blue' while loading NULL.
-[2019.02.27-13.15.00:111][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Red'
-[2019.02.27-13.15.00:112][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Red' while loading NULL.
-[2019.02.27-13.15.00:152][  0]Error: CDO Constructor (Weapon): Failed to find /Game/Weapons/BP_ProjectileA.BP_ProjectileA_C
+[2019.02.27-15.01.02:403][  0]LogLinker: Warning: Can't find file '/Game/Maps/TestMap/TestMap_BuiltData'
+[2019.02.27-15.01.02:403][  0]LoadErrors: Failed to load /Game/Maps/TestMap/TestMap_BuiltData.TestMap_BuiltData Referenced by PersistentLevel
+[2019.02.27-15.01.02:403][  0]LogLinker: Warning: Can't find file for asset '/Game/Maps/TestMap/TestMap_BuiltData' while loading NULL.
+[2019.02.27-15.01.02:403][  0]LoadErrors: Failed to load /Game/Maps/TestMap/TestMap_BuiltData.TestMap_BuiltData Referenced by PersistentLevel
+[2019.02.27-15.01.02:410][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Red'
+[2019.02.27-15.01.02:410][  0]LoadErrors: Failed to load /Game/Materials/M_Red.M_Red Referenced by StaticMeshComponent0
+[2019.02.27-15.01.02:410][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Red' while loading NULL.
+[2019.02.27-15.01.02:410][  0]LoadErrors: Failed to load /Game/Materials/M_Red.M_Red Referenced by StaticMeshComponent0
+[2019.02.27-15.01.02:410][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Red'
+[2019.02.27-15.01.02:410][  0]LoadErrors: Failed to load /Game/Materials/M_Red.M_Red Referenced by StaticMeshComponent0
+[2019.02.27-15.01.02:411][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Red' while loading NULL.
+[2019.02.27-15.01.02:411][  0]LoadErrors: Failed to load /Game/Materials/M_Red.M_Red Referenced by StaticMeshComponent0
+[2019.02.27-15.01.02:411][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Red'
+[2019.02.27-15.01.02:411][  0]LoadErrors: Failed to load /Game/Materials/M_Red.M_Red Referenced by StaticMeshComponent0
+[2019.02.27-15.01.02:411][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Red' while loading NULL.
+[2019.02.27-15.01.02:411][  0]LoadErrors: Failed to load /Game/Materials/M_Red.M_Red Referenced by StaticMeshComponent0
+[2019.02.27-15.01.02:411][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Red'
+[2019.02.27-15.01.02:411][  0]LoadErrors: Failed to load /Game/Materials/M_Red.M_Red Referenced by StaticMeshComponent0
+[2019.02.27-15.01.02:411][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Red' while loading NULL.
+[2019.02.27-15.01.02:411][  0]LoadErrors: Failed to load /Game/Materials/M_Red.M_Red Referenced by StaticMeshComponent0
+[2019.02.27-15.01.02:412][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Red'
+[2019.02.27-15.01.02:412][  0]LoadErrors: Failed to load /Game/Materials/M_Red.M_Red Referenced by StaticMeshComponent0
+[2019.02.27-15.01.02:412][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Red' while loading NULL.
+[2019.02.27-15.01.02:412][  0]LoadErrors: Failed to load /Game/Materials/M_Red.M_Red Referenced by StaticMeshComponent0
+[2019.02.27-15.01.02:412][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Red'
+[2019.02.27-15.01.02:412][  0]LoadErrors: Failed to load /Game/Materials/M_Red.M_Red Referenced by StaticMeshComponent0
+[2019.02.27-15.01.02:412][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Red' while loading NULL.
+[2019.02.27-15.01.02:412][  0]LoadErrors: Failed to load /Game/Materials/M_Red.M_Red Referenced by StaticMeshComponent0
+[2019.02.27-15.01.02:412][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Red'
+[2019.02.27-15.01.02:413][  0]LoadErrors: Failed to load /Game/Materials/M_Red.M_Red Referenced by StaticMeshComponent0
+[2019.02.27-15.01.02:413][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Red' while loading NULL.
+[2019.02.27-15.01.02:413][  0]LoadErrors: Failed to load /Game/Materials/M_Red.M_Red Referenced by StaticMeshComponent0
+[2019.02.27-15.01.02:413][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Blue'
+[2019.02.27-15.01.02:413][  0]LoadErrors: Failed to load /Game/Materials/M_Blue.M_Blue Referenced by StaticMeshComponent0
+[2019.02.27-15.01.02:413][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Blue' while loading NULL.
+[2019.02.27-15.01.02:413][  0]LoadErrors: Failed to load /Game/Materials/M_Blue.M_Blue Referenced by StaticMeshComponent0
+[2019.02.27-15.01.02:413][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Blue'
+[2019.02.27-15.01.02:413][  0]LoadErrors: Failed to load /Game/Materials/M_Blue.M_Blue Referenced by StaticMeshComponent0
+[2019.02.27-15.01.02:414][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Blue' while loading NULL.
+[2019.02.27-15.01.02:414][  0]LoadErrors: Failed to load /Game/Materials/M_Blue.M_Blue Referenced by StaticMeshComponent0
+[2019.02.27-15.01.02:414][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Blue'
+[2019.02.27-15.01.02:414][  0]LoadErrors: Failed to load /Game/Materials/M_Blue.M_Blue Referenced by StaticMeshComponent0
+[2019.02.27-15.01.02:414][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Blue' while loading NULL.
+[2019.02.27-15.01.02:414][  0]LoadErrors: Failed to load /Game/Materials/M_Blue.M_Blue Referenced by StaticMeshComponent0
+[2019.02.27-15.01.02:415][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Blue'
+[2019.02.27-15.01.02:415][  0]LoadErrors: Failed to load /Game/Materials/M_Blue.M_Blue Referenced by StaticMeshComponent0
+[2019.02.27-15.01.02:415][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Blue' while loading NULL.
+[2019.02.27-15.01.02:415][  0]LoadErrors: Failed to load /Game/Materials/M_Blue.M_Blue Referenced by StaticMeshComponent0
+[2019.02.27-15.01.02:415][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Red'
+[2019.02.27-15.01.02:415][  0]LoadErrors: Failed to load /Game/Materials/M_Red.M_Red Referenced by StaticMeshComponent0
+[2019.02.27-15.01.02:415][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Red' while loading NULL.
+[2019.02.27-15.01.02:415][  0]LoadErrors: Failed to load /Game/Materials/M_Red.M_Red Referenced by StaticMeshComponent0
+[2019.02.27-15.01.02:415][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Red'
+[2019.02.27-15.01.02:415][  0]LoadErrors: Failed to load /Game/Materials/M_Red.M_Red Referenced by StaticMeshComponent0
+[2019.02.27-15.01.02:415][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Red' while loading NULL.
+[2019.02.27-15.01.02:415][  0]LoadErrors: Failed to load /Game/Materials/M_Red.M_Red Referenced by StaticMeshComponent0
+[2019.02.27-15.01.02:416][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Blue'
+[2019.02.27-15.01.02:416][  0]LoadErrors: Failed to load /Game/Materials/M_Blue.M_Blue Referenced by StaticMeshComponent0
+[2019.02.27-15.01.02:416][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Blue' while loading NULL.
+[2019.02.27-15.01.02:416][  0]LoadErrors: Failed to load /Game/Materials/M_Blue.M_Blue Referenced by StaticMeshComponent0
+[2019.02.27-15.01.02:552][  0]LogAIModule: Creating AISystem for world TestMap
+[2019.02.27-15.01.02:810][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.27-15.01.02:833][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.27-15.01.02:834][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.128ms to complete.
+[2019.02.27-15.01.02:834][  0]LogFileHelpers: Loading map 'TestMap' took 0.658
+[2019.02.27-15.01.02:912][  0]LogCollectionManager: Loaded 0 collections in 0.003982 seconds
+[2019.02.27-15.01.02:954][  0]LogFileCache: Scanning file cache for directory 'D:/Master de videojuegos Madrid/repogit/Twaliens/Saved/Collections/' took 0.01s
+[2019.02.27-15.01.02:954][  0]LogFileCache: Scanning file cache for directory 'D:/Master de videojuegos Madrid/repogit/Twaliens/Content/Developers/Usuario/Collections/' took 0.01s
+[2019.02.27-15.01.02:954][  0]LogFileCache: Scanning file cache for directory 'D:/Master de videojuegos Madrid/repogit/Twaliens/Content/Collections/' took 0.01s
+[2019.02.27-15.01.02:955][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.02.27-15.01.02:965][  0]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2667 classes and 622 folders.
+[2019.02.27-15.01.02:978][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.02.27-15.01.02:981][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.27-15.01.02:983][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.27-15.01.02:984][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.27-15.01.02:985][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.27-15.01.02:986][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.27-15.01.02:988][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.27-15.01.02:989][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.27-15.01.02:990][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.27-15.01.02:991][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.27-15.01.02:992][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.27-15.01.02:993][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.27-15.01.02:994][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.27-15.01.02:995][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.27-15.01.02:996][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.27-15.01.02:997][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.27-15.01.02:997][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.27-15.01.02:998][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.27-15.01.02:999][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.27-15.01.03:000][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.27-15.01.03:001][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.27-15.01.03:003][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.27-15.01.03:004][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.27-15.01.03:005][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.27-15.01.03:005][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.27-15.01.03:006][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.27-15.01.03:007][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.27-15.01.03:084][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.02.27-15.01.03:098][  0]LogUObjectBase: Warning: -------------- Default Property warnings and errors:
+[2019.02.27-15.01.03:098][  0]LogUObjectBase: Warning: Error: CDO Constructor (Weapon): Failed to find /Game/Weapons/BP_ProjectileA.BP_ProjectileA_C
 
-[2019.02.27-13.15.00:273][  0]LogLinker: Warning: Can't find file '/Game/Maps/TestMap/TestMap_BuiltData'
-[2019.02.27-13.15.00:274][  0]LoadErrors: Failed to load /Game/Maps/TestMap/TestMap_BuiltData.TestMap_BuiltData Referenced by PersistentLevel
-[2019.02.27-13.15.00:274][  0]LogLinker: Warning: Can't find file for asset '/Game/Maps/TestMap/TestMap_BuiltData' while loading NULL.
-[2019.02.27-13.15.00:274][  0]LoadErrors: Failed to load /Game/Maps/TestMap/TestMap_BuiltData.TestMap_BuiltData Referenced by PersistentLevel
-[2019.02.27-13.15.00:288][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Red'
-[2019.02.27-13.15.00:288][  0]LoadErrors: Failed to load /Game/Materials/M_Red.M_Red Referenced by StaticMeshComponent0
-[2019.02.27-13.15.00:288][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Red' while loading NULL.
-[2019.02.27-13.15.00:288][  0]LoadErrors: Failed to load /Game/Materials/M_Red.M_Red Referenced by StaticMeshComponent0
-[2019.02.27-13.15.00:288][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Red'
-[2019.02.27-13.15.00:289][  0]LoadErrors: Failed to load /Game/Materials/M_Red.M_Red Referenced by StaticMeshComponent0
-[2019.02.27-13.15.00:289][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Red' while loading NULL.
-[2019.02.27-13.15.00:289][  0]LoadErrors: Failed to load /Game/Materials/M_Red.M_Red Referenced by StaticMeshComponent0
-[2019.02.27-13.15.00:289][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Red'
-[2019.02.27-13.15.00:289][  0]LoadErrors: Failed to load /Game/Materials/M_Red.M_Red Referenced by StaticMeshComponent0
-[2019.02.27-13.15.00:289][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Red' while loading NULL.
-[2019.02.27-13.15.00:289][  0]LoadErrors: Failed to load /Game/Materials/M_Red.M_Red Referenced by StaticMeshComponent0
-[2019.02.27-13.15.00:290][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Red'
-[2019.02.27-13.15.00:290][  0]LoadErrors: Failed to load /Game/Materials/M_Red.M_Red Referenced by StaticMeshComponent0
-[2019.02.27-13.15.00:290][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Red' while loading NULL.
-[2019.02.27-13.15.00:290][  0]LoadErrors: Failed to load /Game/Materials/M_Red.M_Red Referenced by StaticMeshComponent0
-[2019.02.27-13.15.00:290][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Red'
-[2019.02.27-13.15.00:290][  0]LoadErrors: Failed to load /Game/Materials/M_Red.M_Red Referenced by StaticMeshComponent0
-[2019.02.27-13.15.00:291][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Red' while loading NULL.
-[2019.02.27-13.15.00:291][  0]LoadErrors: Failed to load /Game/Materials/M_Red.M_Red Referenced by StaticMeshComponent0
-[2019.02.27-13.15.00:291][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Red'
-[2019.02.27-13.15.00:291][  0]LoadErrors: Failed to load /Game/Materials/M_Red.M_Red Referenced by StaticMeshComponent0
-[2019.02.27-13.15.00:291][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Red' while loading NULL.
-[2019.02.27-13.15.00:291][  0]LoadErrors: Failed to load /Game/Materials/M_Red.M_Red Referenced by StaticMeshComponent0
-[2019.02.27-13.15.00:291][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Red'
-[2019.02.27-13.15.00:291][  0]LoadErrors: Failed to load /Game/Materials/M_Red.M_Red Referenced by StaticMeshComponent0
-[2019.02.27-13.15.00:291][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Red' while loading NULL.
-[2019.02.27-13.15.00:291][  0]LoadErrors: Failed to load /Game/Materials/M_Red.M_Red Referenced by StaticMeshComponent0
-[2019.02.27-13.15.00:292][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Blue'
-[2019.02.27-13.15.00:292][  0]LoadErrors: Failed to load /Game/Materials/M_Blue.M_Blue Referenced by StaticMeshComponent0
-[2019.02.27-13.15.00:292][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Blue' while loading NULL.
-[2019.02.27-13.15.00:292][  0]LoadErrors: Failed to load /Game/Materials/M_Blue.M_Blue Referenced by StaticMeshComponent0
-[2019.02.27-13.15.00:292][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Blue'
-[2019.02.27-13.15.00:292][  0]LoadErrors: Failed to load /Game/Materials/M_Blue.M_Blue Referenced by StaticMeshComponent0
-[2019.02.27-13.15.00:292][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Blue' while loading NULL.
-[2019.02.27-13.15.00:292][  0]LoadErrors: Failed to load /Game/Materials/M_Blue.M_Blue Referenced by StaticMeshComponent0
-[2019.02.27-13.15.00:292][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Blue'
-[2019.02.27-13.15.00:292][  0]LoadErrors: Failed to load /Game/Materials/M_Blue.M_Blue Referenced by StaticMeshComponent0
-[2019.02.27-13.15.00:292][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Blue' while loading NULL.
-[2019.02.27-13.15.00:292][  0]LoadErrors: Failed to load /Game/Materials/M_Blue.M_Blue Referenced by StaticMeshComponent0
-[2019.02.27-13.15.00:293][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Blue'
-[2019.02.27-13.15.00:293][  0]LoadErrors: Failed to load /Game/Materials/M_Blue.M_Blue Referenced by StaticMeshComponent0
-[2019.02.27-13.15.00:293][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Blue' while loading NULL.
-[2019.02.27-13.15.00:293][  0]LoadErrors: Failed to load /Game/Materials/M_Blue.M_Blue Referenced by StaticMeshComponent0
-[2019.02.27-13.15.00:293][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Red'
-[2019.02.27-13.15.00:293][  0]LoadErrors: Failed to load /Game/Materials/M_Red.M_Red Referenced by StaticMeshComponent0
-[2019.02.27-13.15.00:293][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Red' while loading NULL.
-[2019.02.27-13.15.00:293][  0]LoadErrors: Failed to load /Game/Materials/M_Red.M_Red Referenced by StaticMeshComponent0
-[2019.02.27-13.15.00:293][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Red'
-[2019.02.27-13.15.00:293][  0]LoadErrors: Failed to load /Game/Materials/M_Red.M_Red Referenced by StaticMeshComponent0
-[2019.02.27-13.15.00:293][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Red' while loading NULL.
-[2019.02.27-13.15.00:293][  0]LoadErrors: Failed to load /Game/Materials/M_Red.M_Red Referenced by StaticMeshComponent0
-[2019.02.27-13.15.00:294][  0]LogLinker: Warning: Can't find file '/Game/Materials/M_Blue'
-[2019.02.27-13.15.00:294][  0]LoadErrors: Failed to load /Game/Materials/M_Blue.M_Blue Referenced by StaticMeshComponent0
-[2019.02.27-13.15.00:295][  0]LogLinker: Warning: Can't find file for asset '/Game/Materials/M_Blue' while loading NULL.
-[2019.02.27-13.15.00:295][  0]LoadErrors: Failed to load /Game/Materials/M_Blue.M_Blue Referenced by StaticMeshComponent0
-[2019.02.27-13.15.00:903][  0]LogAIModule: Creating AISystem for world TestMap
-[2019.02.27-13.15.02:231][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.02.27-13.15.02:294][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.02.27-13.15.02:295][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.483ms to complete.
-[2019.02.27-13.15.02:295][  0]LogFileHelpers: Loading map 'TestMap' took 2.565
-[2019.02.27-13.15.02:581][  0]LogSourceControl: Attempting 'p4 client -o UE_G4_Perforce'
-[2019.02.27-13.15.02:581][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.27-13.15.02:681][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.27-13.15.02:751][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.27-13.15.02:771][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.27-13.15.02:816][  0]LogCollectionManager: Loaded 0 collections in 0.002157 seconds
-[2019.02.27-13.15.02:874][  0]LogFileCache: Scanning file cache for directory 'D:/Proyectos/Unreal/Git/tualiens/Twaliens/Saved/Collections/' took 0.01s
-[2019.02.27-13.15.02:874][  0]LogFileCache: Scanning file cache for directory 'D:/Proyectos/Unreal/Git/tualiens/Twaliens/Content/Developers/davir/Collections/' took 0.01s
-[2019.02.27-13.15.02:874][  0]LogFileCache: Scanning file cache for directory 'D:/Proyectos/Unreal/Git/tualiens/Twaliens/Content/Collections/' took 0.00s
-[2019.02.27-13.15.02:874][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.02.27-13.15.02:896][  0]LogContentBrowser: Native class hierarchy populated in 0.0200 seconds. Added 2667 classes and 622 folders.
-[2019.02.27-13.15.02:919][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2019.02.27-13.15.02:947][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.27-13.15.02:963][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.27-13.15.03:004][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.27-13.15.03:022][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.27-13.15.03:031][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.27-13.15.03:040][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.27-13.15.03:048][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.27-13.15.03:056][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.27-13.15.03:066][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.27-13.15.03:077][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.27-13.15.03:086][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.27-13.15.03:094][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.27-13.15.03:103][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.27-13.15.03:111][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.27-13.15.03:119][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.27-13.15.03:128][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.27-13.15.03:188][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.27-13.15.03:198][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.27-13.15.03:207][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.27-13.15.03:217][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.27-13.15.03:296][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.27-13.15.03:305][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.27-13.15.03:315][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.27-13.15.03:325][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.27-13.15.03:333][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.27-13.15.03:341][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.27-13.15.03:608][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2019.02.27-13.15.03:652][  0]LogUObjectBase: Warning: -------------- Default Property warnings and errors:
-[2019.02.27-13.15.03:652][  0]LogUObjectBase: Warning: Error: CDO Constructor (Weapon): Failed to find /Game/Weapons/BP_ProjectileA.BP_ProjectileA_C
+[2019.02.27-15.01.03:105][  0]LogSlate: Took 0.000300 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.27-15.01.12:834][  0]LogSlate: Window 'Message' being destroyed
+[2019.02.27-15.01.12:834][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.02.27-15.01.12:839][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2019.02.27-15.01.12:862][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.27-15.01.12:889][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.27-15.01.12:915][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.27-15.01.12:922][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.27-15.01.12:931][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.02.27-15.01.12:935][  0]LogSlate: Took 0.000279 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.27-15.01.12:935][  0]LogSlate: Took 0.000240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.27-15.01.12:944][  0]LogSlate: Took 0.000363 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.02.27-15.01.13:054][  0]LogRenderer: Reallocating scene render targets to support 1516x720 Format 10 NumSamples 1 (Frame:1).
+[2019.02.27-15.01.13:195][  0]LogSourceControl: Attempting 'p4 client -o UE_G4_Perforce'
+[2019.02.27-15.01.13:213][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.02.27-15.01.13:213][  0]LogLoad: (Engine Initialization) Total time: 128.07 seconds
+[2019.02.27-15.01.13:213][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.27-15.01.13:243][  0]LogSlate: New Slate User Created.  User Index 1, Is Virtual User: 0
+[2019.02.27-15.01.13:243][  0]LogSlate: Slate User Registered.  User Index 1, Is Virtual User: 0
+[2019.02.27-15.01.13:302][  0]SourceControl: Error: Workspace 'UE_G4_Perforce' does not map into this project's directory.
+[2019.02.27-15.01.13:303][  0]SourceControl: Error: You should set your workspace up to map to a directory at or above the project's directory.
+[2019.02.27-15.01.13:303][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.27-15.01.13:306][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-15.01.13:385][  1]LogAssetRegistry: Asset discovery search completed in 19.1924 seconds
+[2019.02.27-15.01.13:386][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.02.27-15.01.13:386][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000153 seconds (updated 0 objects)
+[2019.02.27-15.01.18:788][628]LogSlate: Window 'Message Log' being destroyed
+[2019.02.27-15.01.18:791][628]LogSlate: Window 'Message Log' being destroyed
+[2019.02.27-15.01.26:156][473]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-15.01.26:222][481]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.27-15.01.26:237][481]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/Maps/TestMap/TestMap.TestMap_C' with ClassGeneratedBy '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap'
+[2019.02.27-15.01.26:238][481]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.27-15.01.26:238][481]PIE: New page: PIE session: TestMap (27/02/2019 17:01:26)
+[2019.02.27-15.01.26:251][481]LogPlayLevel: Creating play world package: /Game/Maps/TestMap/UEDPIE_0_TestMap
+[2019.02.27-15.01.26:252][481]Error: CDO Constructor (Weapon): Failed to find /Game/Weapons/BP_ProjectileA.BP_ProjectileA_C
 
-[2019.02.27-13.15.03:696][  0]LogSlate: Took 0.007339 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.02.27-13.15.26:241][  0]LogSlate: Window 'Message' being destroyed
-[2019.02.27-13.15.26:243][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.02.27-13.15.26:254][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2019.02.27-13.15.26:347][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.02.27-13.15.26:359][  0]LogSlate: Took 0.008688 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.02.27-13.15.26:386][  0]LogSlate: Took 0.011627 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.02.27-13.15.26:397][  0]LogSlate: Took 0.009664 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2019.02.27-13.15.26:697][  0]LogRenderer: Reallocating scene render targets to support 1176x688 Format 10 NumSamples 1 (Frame:1).
-[2019.02.27-13.15.26:990][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2019.02.27-13.15.26:991][  0]LogLoad: (Engine Initialization) Total time: 117.45 seconds
-[2019.02.27-13.15.26:991][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.02.27-13.15.27:099][  0]SourceControl: Error: Perforce password (P4PASSWD) invalid or unset.
+[2019.02.27-15.01.26:304][481]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053221s)
+[2019.02.27-15.01.26:305][481]LogAIModule: Creating AISystem for world TestMap
+[2019.02.27-15.01.26:305][481]LogPlayLevel: PIE: World Init took: (0.000694s)
+[2019.02.27-15.01.26:305][481]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap/TestMap.TestMap to /Game/Maps/TestMap/UEDPIE_0_TestMap.TestMap (0.054561s)
+[2019.02.27-15.01.26:367][481]LogInit: XAudio2 using 'Altavoces (USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.27-15.01.26:378][481]LogInit: FAudioDevice initialized.
+[2019.02.27-15.01.26:419][481]LogLoad: Game class is 'FunctionalTestGameMode'
+[2019.02.27-15.01.26:448][481]LogWorld: Bringing World /Game/Maps/TestMap/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2019.02.27-16.01.26
+[2019.02.27-15.01.26:451][481]LogWorld: Bringing up level for play took: 0.030783
+[2019.02.27-15.01.26:476][481]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 20 classes and 0 folders.
+[2019.02.27-15.01.26:477][481]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2019.02.27-15.01.26:493][481]PIE: Play in editor start time for /Game/Maps/TestMap/UEDPIE_0_TestMap -0.182
+[2019.02.27-15.01.26:494][481]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/Maps/TestMap/TestMap.TestMap_C' with ClassGeneratedBy '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap'
+[2019.02.27-15.01.34:692][454]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/Maps/TestMap/TestMap.TestMap_C' with ClassGeneratedBy '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap'
+[2019.02.27-15.01.34:692][454]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.27-15.01.34:726][454]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.27-15.01.34:727][454]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/Maps/TestMap/TestMap.TestMap_C' with ClassGeneratedBy '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap'
+[2019.02.27-15.01.34:763][454]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.27-15.01.34:809][456]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.02.27-15.01.35:892][586]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-15.01.35:941][592]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.27-15.01.35:956][592]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/Maps/TestMap/TestMap.TestMap_C' with ClassGeneratedBy '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap'
+[2019.02.27-15.01.35:956][592]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.27-15.01.35:957][592]PIE: New page: PIE session: TestMap (27/02/2019 17:01:35)
+[2019.02.27-15.01.35:957][592]LogPlayLevel: Creating play world package: /Game/Maps/TestMap/UEDPIE_0_TestMap
+[2019.02.27-15.01.35:958][592]Error: CDO Constructor (Weapon): Failed to find /Game/Weapons/BP_ProjectileA.BP_ProjectileA_C
 
-[2019.02.27-13.15.27:102][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.02.27-13.15.27:587][  3]LogAssetRegistry: Asset discovery search completed in 101.5304 seconds
-[2019.02.27-13.15.27:598][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000040 seconds (found 0 objects)
-[2019.02.27-13.15.27:598][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000917 seconds (updated 0 objects)
-[2019.02.27-13.15.28:075][ 28]LogSlate: Took 0.009159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.02.27-13.19.47:350][705]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.27-13.19.47:653][725]Candidate modules for hot reload:
-[2019.02.27-13.19.47:653][725]  Twaliens
-[2019.02.27-13.19.47:655][725]Launching UnrealBuildTool... [D:/Engine/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Twaliens,2612 Win64 Development -TargetType=Editor -Project="../../../../../Proyectos/Unreal/Git/tualiens/Twaliens/Twaliens.uproject" -canskiplink "D:/Proyectos/Unreal/Git/tualiens/Twaliens/Twaliens.uproject" ]
-[2019.02.27-13.19.47:801][725]Warning: Starting HotReload took  0.2s.
-[2019.02.27-13.21.47:457][243]CompilerResultsLog: New page: Compilation - Feb 27, 2019, 3:21:47 PM
-[2019.02.27-13.21.47:458][243]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Proyectos\Unreal\Git\tualiens).
-[2019.02.27-13.21.47:459][243]CompilerResultsLog: Creating makefile for hot reloading TwaliensEditor (.uproject file is newer)
-[2019.02.27-13.21.47:459][243]CompilerResultsLog: Compiling game modules for hot reload
-[2019.02.27-13.21.47:459][243]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2019.02.27-13.21.47:460][243]CompilerResultsLog: Target is up to date
-[2019.02.27-13.21.47:460][243]CompilerResultsLog: Total build time: 118,83 seconds (NoActionsToExecute executor: 0,00 seconds)
-[2019.02.27-13.21.47:461][243]LogMainFrame: MainFrame: Module compiling took 119.818 seconds
-[2019.02.27-13.21.47:518][243]LogContentBrowser: Native class hierarchy populated in 0.0162 seconds. Added 2668 classes and 624 folders.
-[2019.02.27-13.21.47:519][243]Display: HotReload took 120.0s.
-[2019.02.27-13.27.26:307][ 76]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{f04b83ee-af13-4742-900b-c9f7d760e11a} was removed. Shutting down audio device.
-[2019.02.27-13.27.26:310][ 76]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.27-13.30.31:733][631]LogInit: XAudio2 using 'Altavoces (2- USB PnP Sound Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.02.27-13.30.32:035][632]LogInit: XAudio2 using 'Altavoces (2- USB PnP Sound Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.27-15.01.36:005][592]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048169s)
+[2019.02.27-15.01.36:006][592]LogAIModule: Creating AISystem for world TestMap
+[2019.02.27-15.01.36:006][592]LogPlayLevel: PIE: World Init took: (0.000579s)
+[2019.02.27-15.01.36:006][592]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap/TestMap.TestMap to /Game/Maps/TestMap/UEDPIE_0_TestMap.TestMap (0.049188s)
+[2019.02.27-15.01.36:069][592]LogInit: XAudio2 using 'Altavoces (USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.27-15.01.36:081][592]LogInit: FAudioDevice initialized.
+[2019.02.27-15.01.36:115][592]LogLoad: Game class is 'FunctionalTestGameMode'
+[2019.02.27-15.01.36:143][592]LogWorld: Bringing World /Game/Maps/TestMap/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2019.02.27-16.01.36
+[2019.02.27-15.01.36:145][592]LogWorld: Bringing up level for play took: 0.028868
+[2019.02.27-15.01.36:157][592]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2019.02.27-15.01.36:161][592]PIE: Play in editor start time for /Game/Maps/TestMap/UEDPIE_0_TestMap -0.514
+[2019.02.27-15.01.36:161][592]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/Maps/TestMap/TestMap.TestMap_C' with ClassGeneratedBy '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap'
+[2019.02.27-15.01.59:126][343]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/Maps/TestMap/TestMap.TestMap_C' with ClassGeneratedBy '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap'
+[2019.02.27-15.01.59:127][343]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.27-15.01.59:165][343]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.27-15.01.59:165][343]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/Maps/TestMap/TestMap.TestMap_C' with ClassGeneratedBy '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap'
+[2019.02.27-15.01.59:187][343]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.27-15.01.59:239][345]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.02.27-15.02.11:816][741]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-15.02.12:716][848]MapCheck: New page: Map Check
+[2019.02.27-15.02.12:749][848]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-15.02.12:761][848]Cmd: MAP REBUILD ALLVISIBLE
+[2019.02.27-15.02.12:761][848]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.02.27-15.02.13:002][848]LightingResults: New page: Lighting Build - 27/02/2019 17:02:13
+[2019.02.27-15.02.13:290][848]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.02.27-15.02.13:558][848]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.02.27-15.02.13:596][848]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.02.27-15.02.14:620][848]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.02.27-15.02.14:620][848]LogSwarmInterface: [TryOpenConnection] Local Process ID is 14076
+[2019.02.27-15.02.17:215][848]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2019.02.27-15.02.17:256][848]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.02.27-15.02.17:256][848]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.02.27-15.02.17:257][848]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.02.27-15.02.17:257][848]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.02.27-15.02.17:257][848]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.02.27-15.02.17:542][848]LogEditorBuildUtils: Build time 0:04
+[2019.02.27-15.02.17:675][848]LogSourceControl: Attempting 'p4 fstat -Or D:/Master de videojuegos Madrid/repogit/Twaliens/Content/Maps/TestMap/TestMap.umap'
+[2019.02.27-15.02.17:709][849]SourceControl: Path 'D:/Master de videojuegos Madrid/repogit/Twaliens/Content/Maps/TestMap/TestMap.umap' is not under client's root 'D:\Master de videojuegos Madrid\Grupo4'.
+
+[2019.02.27-15.02.17:716][849]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_64, compiling. Is special engine material.
+[2019.02.27-15.02.17:742][849]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_64, compiling. Is special engine material.
+[2019.02.27-15.02.17:752][849]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.27-15.02.17:791][850]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.27-15.02.21:702][974]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Mat_Water, compiling. 
+[2019.02.27-15.02.21:710][974]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Mat_Water, compiling. 
+[2019.02.27-15.02.21:718][975]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.27-15.02.21:751][976]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.27-15.02.33:134][217]Job is a success!
+[2019.02.27-15.02.33:483][218]LogSlate: Took 0.000350 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.27-15.02.33:590][218]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.086s
+[2019.02.27-15.02.33:591][218]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2019.02.27-15.02.33:591][218]LogVolumetricLightmapImport:      BrickData 700x5x5 = 0.6Mb (trimmed 0.1Mb due to 0.010000 MinBrickError)
+[2019.02.27-15.02.33:591][218]LogVolumetricLightmapImport:      Bricks at Level
+[2019.02.27-15.02.33:591][218]LogVolumetricLightmapImport:          0: 5.7% covering 100.0% of volume
+[2019.02.27-15.02.33:591][218]LogVolumetricLightmapImport:          1: 11.4% covering 3.1% of volume
+[2019.02.27-15.02.33:591][218]LogVolumetricLightmapImport:          2: 82.9% covering 0.4% of volume
+[2019.02.27-15.02.33:783][218]LogMaterial: Warning: Material /Game/Materials/Mat_Water.Mat_Water needed to have new flag set bUsedWithStaticLighting !
+[2019.02.27-15.02.33:785][218]LogMaterial: Display: Missing cached shader map for material Mat_Water, compiling. 
+[2019.02.27-15.02.33:848][218]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.02.27-15.02.33:848][218]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.02.27-15.02.33:848][218]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.02.27-15.02.33:848][218]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.27-15.02.34:618][218]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2019.02.27-15.02.34:619][218]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2019.02.27-15.02.34:619][218]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 512X512)
+[2019.02.27-15.02.34:620][218]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 512X512)
+[2019.02.27-15.02.34:620][218]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 256X256)
+[2019.02.27-15.02.34:620][218]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 256X256)
+[2019.02.27-15.02.34:620][218]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 256X256)
+[2019.02.27-15.02.34:620][218]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 256X256)
+[2019.02.27-15.02.34:621][218]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 128X128)
+[2019.02.27-15.02.34:621][218]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 128X128)
+[2019.02.27-15.02.34:621][218]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 256X256)
+[2019.02.27-15.02.34:621][218]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 256X256)
+[2019.02.27-15.02.34:621][218]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 128X128)
+[2019.02.27-15.02.34:621][218]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 128X128)
+[2019.02.27-15.02.34:622][218]LogTexture: Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 128X128)
+[2019.02.27-15.02.34:625][218]LogTexture: Display: Building textures: LQ_Lightmap_0_8 (DXT1, 128X128)
+[2019.02.27-15.02.34:625][218]LogTexture: Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 128X128)
+[2019.02.27-15.02.34:625][218]LogTexture: Display: Building textures: LQ_Lightmap_0_9 (DXT1, 128X128)
+[2019.02.27-15.02.34:625][218]LogTexture: Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 256X256)
+[2019.02.27-15.02.34:626][218]LogTexture: Display: Building textures: LQ_Lightmap_0_10 (DXT1, 256X256)
+[2019.02.27-15.02.34:626][218]LogTexture: Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 256X256)
+[2019.02.27-15.02.34:626][218]LogTexture: Display: Building textures: LQ_Lightmap_0_11 (DXT1, 256X256)
+[2019.02.27-15.02.34:743][218]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 128X128)
+[2019.02.27-15.02.34:744][218]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 64X64)
+[2019.02.27-15.02.34:744][218]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 512X64)
+[2019.02.27-15.02.34:744][218]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 256X64)
+[2019.02.27-15.02.34:744][218]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 64X64)
+[2019.02.27-15.02.34:744][218]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 512X128)
+[2019.02.27-15.02.34:745][218]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (G8, 64X64)
+[2019.02.27-15.02.34:745][218]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 128X64)
+[2019.02.27-15.02.34:745][218]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (G8, 1024X32)
+[2019.02.27-15.02.34:745][218]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X256)
+[2019.02.27-15.02.34:802][218]Lightmass on DESKTOP-A4H91BA: 6.07 sec total, 396 ms importing, 77 ms setup, 849 ms photons, 4.71 sec processing, 0 ms extra exporting [300/300 mappings]. Threads: 32.8 sec total, 12.5 sec processing.
+[2019.02.27-15.02.34:889][218]LogStaticLightingSystem: Illumination: 21.5 sec (742 ms encoding lightmaps, 114 ms encoding shadowmaps)
+[2019.02.27-15.02.34:890][218]LogStaticLightingSystem: Lightmap texture memory:  3.3 MB (2.8 MB streaming, 0.5 MB non-streaming), 22 textures
+[2019.02.27-15.02.34:890][218]LogStaticLightingSystem: Shadowmap texture memory: 0.6 MB (0.5 MB streaming, 0.1 MB non-streaming), 10 textures
+[2019.02.27-15.02.35:404][218]DumpUnbuiltLightIteractions
+[2019.02.27-15.02.35:405][218]Lights with unbuilt interactions: 0
+[2019.02.27-15.02.35:405][218]
+[2019.02.27-15.02.35:405][218]Primitives with unbuilt interactions: 0
+[2019.02.27-15.02.37:773][219]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.02.27-15.02.37:773][219]MapCheck: New page: TestMap - 27/02/2019 17:02:37
+[2019.02.27-15.02.37:804][219]MapCheck: Error: Sphere3_42 /Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.Sphere3_42 : Invalid DrawScale/DrawScale3D 
+[2019.02.27-15.02.37:804][219]MapCheck: Warning: Camera_1 Static mesh actor has NULL StaticMesh property 
+[2019.02.27-15.02.37:805][219]MapCheck: Map check complete: 1 Error(s), 1 Warning(s), took 31.323ms to complete.
+[2019.02.27-15.02.38:148][220]LogSourceControl: Attempting 'p4 fstat -Or D:/Master de videojuegos Madrid/repogit/Twaliens/Content/Maps/TestMap/TestMap_BuiltData.uasset D:/Master de videojuegos Madrid/repogit/Twaliens/Content/Materials/Mat_Water.uasset'
+[2019.02.27-15.02.38:148][220]SourceControl: Path 'D:/Master de videojuegos Madrid/repogit/Twaliens/Content/Maps/TestMap/TestMap_BuiltData.uasset' is not under client's root 'D:\Master de videojuegos Madrid\Grupo4'.
+
+[2019.02.27-15.02.38:148][220]SourceControl: Path 'D:/Master de videojuegos Madrid/repogit/Twaliens/Content/Materials/Mat_Water.uasset' is not under client's root 'D:\Master de videojuegos Madrid\Grupo4'.
+
+[2019.02.27-15.03.26:813][623]LogSlate: Window 'Message Log' being destroyed
+[2019.02.27-15.03.26:817][623]LogSlate: Window 'Message Log' being destroyed
+[2019.02.27-15.03.34:293][885]LogEditorViewport: Clicking on Actor (LMB): Landscape (Terreno)
+[2019.02.27-15.03.42:730][846]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-15.03.44:111][ 12]MapCheck: New page: Map Check
+[2019.02.27-15.03.44:121][ 12]Cmd: MAP REBUILD ALLVISIBLE
+[2019.02.27-15.03.44:121][ 12]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.02.27-15.03.44:578][ 12]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2019.02.27-15.03.44:593][ 12]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.27-15.03.44:593][ 12]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2019.02.27-15.03.44:614][ 12]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.27-15.03.44:614][ 12]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2019.02.27-15.03.44:623][ 12]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.27-15.03.44:623][ 12]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultTextMaterialOpaque, compiling. 
+[2019.02.27-15.03.44:645][ 12]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.27-15.03.44:646][ 12]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2019.02.27-15.03.44:662][ 12]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2019.02.27-15.03.44:682][ 12]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_Water, compiling. 
+[2019.02.27-15.03.44:697][ 12]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2019.02.27-15.03.44:713][ 12]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Alpha_Body_MAT, compiling. 
+[2019.02.27-15.03.44:729][ 12]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Alpha_Joints_MAT, compiling. 
+[2019.02.27-15.03.45:520][ 12]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.02.27-15.03.45:520][ 12]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.02.27-15.03.45:520][ 12]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.02.27-15.03.45:520][ 12]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.02.27-15.03.45:521][ 12]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.27-15.03.45:521][ 12]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.27-15.03.45:521][ 12]TextureStreamingBuild: Display: Compiling optional shaders took 0.957 seconds.
+[2019.02.27-15.03.45:575][ 12]LogLevel: Display: Export Material TexCoord Scales took 0.053 seconds.
+[2019.02.27-15.03.45:620][ 12]TextureStreamingBuild: Display: Build Texture Streaming took 0.044 seconds.
+[2019.02.27-15.03.45:642][ 12]LightingResults: New page: Lighting Build - 27/02/2019 17:03:45
+[2019.02.27-15.03.45:656][ 12]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.02.27-15.03.45:708][ 12]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.02.27-15.03.45:709][ 12]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.02.27-15.03.46:236][ 12]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.02.27-15.03.46:237][ 12]LogSwarmInterface: [TryOpenConnection] Local Process ID is 14076
+[2019.02.27-15.03.48:659][ 12]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2019.02.27-15.03.48:660][ 12]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.02.27-15.03.48:660][ 12]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.02.27-15.03.48:660][ 12]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.02.27-15.03.48:660][ 12]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.02.27-15.03.48:660][ 12]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.02.27-15.03.48:830][ 12]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.02.27-15.03.48:831][ 12]MapCheck: New page: TestMap - 27/02/2019 17:03:48
+[2019.02.27-15.03.48:832][ 12]MapCheck: Error: Sphere3_42 /Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.Sphere3_42 : Invalid DrawScale/DrawScale3D 
+[2019.02.27-15.03.48:833][ 12]MapCheck: Warning: Camera_1 Static mesh actor has NULL StaticMesh property 
+[2019.02.27-15.03.48:833][ 12]MapCheck: Map check complete: 1 Error(s), 1 Warning(s), took 2.596ms to complete.
+[2019.02.27-15.03.48:856][ 12]LogEditorBuildUtils: Build time 0:04
+[2019.02.27-15.03.48:995][ 13]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Mat_Water, compiling. 
+[2019.02.27-15.03.49:003][ 13]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.27-15.03.49:003][ 13]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Mat_Water, compiling. 
+[2019.02.27-15.03.49:014][ 13]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.27-15.03.55:109][ 34]Job is a success!
+[2019.02.27-15.03.55:678][ 35]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.100s
+[2019.02.27-15.03.55:678][ 35]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2019.02.27-15.03.55:679][ 35]LogVolumetricLightmapImport:      BrickData 700x5x5 = 0.6Mb (trimmed 0.1Mb due to 0.010000 MinBrickError)
+[2019.02.27-15.03.55:679][ 35]LogVolumetricLightmapImport:      Bricks at Level
+[2019.02.27-15.03.55:679][ 35]LogVolumetricLightmapImport:          0: 5.7% covering 100.0% of volume
+[2019.02.27-15.03.55:679][ 35]LogVolumetricLightmapImport:          1: 11.4% covering 3.1% of volume
+[2019.02.27-15.03.55:679][ 35]LogVolumetricLightmapImport:          2: 82.9% covering 0.4% of volume
+[2019.02.27-15.03.56:385][ 35]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2019.02.27-15.03.56:385][ 35]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2019.02.27-15.03.56:386][ 35]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 512X512)
+[2019.02.27-15.03.56:386][ 35]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 512X512)
+[2019.02.27-15.03.56:386][ 35]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 256X256)
+[2019.02.27-15.03.56:386][ 35]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 256X256)
+[2019.02.27-15.03.56:386][ 35]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 256X256)
+[2019.02.27-15.03.56:386][ 35]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 256X256)
+[2019.02.27-15.03.56:386][ 35]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 128X128)
+[2019.02.27-15.03.56:387][ 35]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 128X128)
+[2019.02.27-15.03.56:387][ 35]LogTexture: Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 256X256)
+[2019.02.27-15.03.56:387][ 35]LogTexture: Display: Building textures: LQ_Lightmap_1_6 (DXT1, 256X256)
+[2019.02.27-15.03.56:387][ 35]LogTexture: Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 128X128)
+[2019.02.27-15.03.56:387][ 35]LogTexture: Display: Building textures: LQ_Lightmap_1_7 (DXT1, 128X128)
+[2019.02.27-15.03.56:387][ 35]LogTexture: Display: Building textures: HQ_Lightmap1_8 (AutoDXT, 128X128)
+[2019.02.27-15.03.56:387][ 35]LogTexture: Display: Building textures: LQ_Lightmap_1_8 (DXT1, 128X128)
+[2019.02.27-15.03.56:387][ 35]LogTexture: Display: Building textures: HQ_Lightmap1_9 (AutoDXT, 128X128)
+[2019.02.27-15.03.56:388][ 35]LogTexture: Display: Building textures: LQ_Lightmap_1_9 (DXT1, 128X128)
+[2019.02.27-15.03.56:388][ 35]LogTexture: Display: Building textures: HQ_Lightmap1_10 (AutoDXT, 256X256)
+[2019.02.27-15.03.56:388][ 35]LogTexture: Display: Building textures: LQ_Lightmap_1_10 (DXT1, 256X256)
+[2019.02.27-15.03.56:388][ 35]LogTexture: Display: Building textures: HQ_Lightmap1_11 (AutoDXT, 256X256)
+[2019.02.27-15.03.56:388][ 35]LogTexture: Display: Building textures: LQ_Lightmap_1_11 (DXT1, 256X256)
+[2019.02.27-15.03.56:484][ 35]LogTexture: Display: Building textures: ShadowMapTexture2D_12 (G8, 128X128)
+[2019.02.27-15.03.56:484][ 35]LogTexture: Display: Building textures: ShadowMapTexture2D_14 (G8, 64X64)
+[2019.02.27-15.03.56:484][ 35]LogTexture: Display: Building textures: ShadowMapTexture2D_16 (G8, 64X64)
+[2019.02.27-15.03.56:484][ 35]LogTexture: Display: Building textures: ShadowMapTexture2D_13 (G8, 512X64)
+[2019.02.27-15.03.56:484][ 35]LogTexture: Display: Building textures: ShadowMapTexture2D_18 (G8, 64X64)
+[2019.02.27-15.03.56:485][ 35]LogTexture: Display: Building textures: ShadowMapTexture2D_15 (G8, 256X64)
+[2019.02.27-15.03.56:485][ 35]LogTexture: Display: Building textures: ShadowMapTexture2D_17 (G8, 128X64)
+[2019.02.27-15.03.56:485][ 35]LogTexture: Display: Building textures: ShadowMapTexture2D_19 (G8, 1024X32)
+[2019.02.27-15.03.56:485][ 35]LogTexture: Display: Building textures: ShadowMapTexture2D_11 (G8, 512X128)
+[2019.02.27-15.03.56:485][ 35]LogTexture: Display: Building textures: ShadowMapTexture2D_10 (G8, 1024X256)
+[2019.02.27-15.03.56:521][ 35]Lightmass on DESKTOP-A4H91BA: 5.90 sec total, 368 ms importing, 71 ms setup, 858 ms photons, 4.55 sec processing, 0 ms extra exporting [300/300 mappings]. Threads: 31.7 sec total, 12.2 sec processing.
+[2019.02.27-15.03.56:561][ 35]LogStaticLightingSystem: Illumination: 10.5 sec (538 ms encoding lightmaps, 89 ms encoding shadowmaps)
+[2019.02.27-15.03.56:561][ 35]LogStaticLightingSystem: Lightmap texture memory:  3.3 MB (2.8 MB streaming, 0.5 MB non-streaming), 22 textures
+[2019.02.27-15.03.56:561][ 35]LogStaticLightingSystem: Shadowmap texture memory: 0.6 MB (0.5 MB streaming, 0.1 MB non-streaming), 10 textures
+[2019.02.27-15.03.56:666][ 35]DumpUnbuiltLightIteractions
+[2019.02.27-15.03.56:666][ 35]Lights with unbuilt interactions: 0
+[2019.02.27-15.03.56:666][ 35]
+[2019.02.27-15.03.56:666][ 35]Primitives with unbuilt interactions: 0
+[2019.02.27-15.03.56:782][ 36]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.02.27-15.03.56:782][ 36]MapCheck: New page: TestMap - 27/02/2019 17:03:56
+[2019.02.27-15.03.56:784][ 36]MapCheck: Error: Sphere3_42 /Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.Sphere3_42 : Invalid DrawScale/DrawScale3D 
+[2019.02.27-15.03.56:784][ 36]MapCheck: Warning: Camera_1 Static mesh actor has NULL StaticMesh property 
+[2019.02.27-15.03.56:785][ 36]MapCheck: Map check complete: 1 Error(s), 1 Warning(s), took 2.704ms to complete.
+[2019.02.27-15.04.10:089][781]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-15.04.33:937][167]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-15.04.41:028][950]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-15.04.47:885][759]LogSlate: Took 0.015045 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.02.27-15.04.48:268][801]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-15.05.13:231][725]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (52.745 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.02.27-15.05.16:043][ 50]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-15.05.37:608][347]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-15.05.37:685][354]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.27-15.05.37:716][354]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/Maps/TestMap/TestMap.TestMap_C' with ClassGeneratedBy '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap'
+[2019.02.27-15.05.37:717][354]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.27-15.05.37:717][354]PIE: New page: PIE session: TestMap (27/02/2019 17:05:37)
+[2019.02.27-15.05.37:717][354]LogPlayLevel: Creating play world package: /Game/Maps/TestMap/UEDPIE_0_TestMap
+[2019.02.27-15.05.37:719][354]Error: CDO Constructor (Weapon): Failed to find /Game/Weapons/BP_ProjectileA.BP_ProjectileA_C
+
+[2019.02.27-15.05.37:765][354]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047700s)
+[2019.02.27-15.05.37:766][354]LogAIModule: Creating AISystem for world TestMap
+[2019.02.27-15.05.37:766][354]LogPlayLevel: PIE: World Init took: (0.000651s)
+[2019.02.27-15.05.37:766][354]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap/TestMap.TestMap to /Game/Maps/TestMap/UEDPIE_0_TestMap.TestMap (0.048843s)
+[2019.02.27-15.05.37:882][354]LogInit: XAudio2 using 'Altavoces (USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.27-15.05.37:895][354]LogInit: FAudioDevice initialized.
+[2019.02.27-15.05.37:929][354]LogLoad: Game class is 'FunctionalTestGameMode'
+[2019.02.27-15.05.37:943][354]LogWorld: Bringing World /Game/Maps/TestMap/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2019.02.27-16.05.37
+[2019.02.27-15.05.37:944][354]LogWorld: Bringing up level for play took: 0.013789
+[2019.02.27-15.05.37:956][354]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2019.02.27-15.05.37:960][354]PIE: Play in editor start time for /Game/Maps/TestMap/UEDPIE_0_TestMap -0.714
+[2019.02.27-15.05.37:961][354]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/Maps/TestMap/TestMap.TestMap_C' with ClassGeneratedBy '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap'
+[2019.02.27-15.05.50:862][899]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/Maps/TestMap/TestMap.TestMap_C' with ClassGeneratedBy '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap'
+[2019.02.27-15.05.50:863][899]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.27-15.05.50:897][899]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.27-15.05.50:898][899]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/Maps/TestMap/TestMap.TestMap_C' with ClassGeneratedBy '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap'
+[2019.02.27-15.05.50:923][899]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.27-15.05.50:971][901]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.02.27-15.05.52:271][ 57]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-15.06.02:523][267]LogSourceControl: Attempting 'p4 fstat -Or D:/Engines/UnrealEngine/Unreal 4.21/UE_4.21/Engine/Content/... D:/Master de videojuegos Madrid/repogit/Twaliens/Content/... D:/Master de videojuegos Madrid/repogit/Twaliens/Config/... D:/Master de videojuegos Madrid/repogit/Twaliens/Twaliens.uproject'
+[2019.02.27-15.06.02:534][268]SourceControl: Path 'D:/Engines/UnrealEngine/Unreal 4.21/UE_4.21/Engine/Content/...' is not under client's root 'D:\Master de videojuegos Madrid\Grupo4'.
+
+[2019.02.27-15.06.02:534][268]SourceControl: Path 'D:/Master de videojuegos Madrid/repogit/Twaliens/Content/...' is not under client's root 'D:\Master de videojuegos Madrid\Grupo4'.
+
+[2019.02.27-15.06.02:534][268]SourceControl: Path 'D:/Master de videojuegos Madrid/repogit/Twaliens/Config/...' is not under client's root 'D:\Master de videojuegos Madrid\Grupo4'.
+
+[2019.02.27-15.06.02:534][268]SourceControl: Path 'D:/Master de videojuegos Madrid/repogit/Twaliens/Twaliens.uproject' is not under client's root 'D:\Master de videojuegos Madrid\Grupo4'.
+
+[2019.02.27-15.06.02:795][268]EditorErrors: Warning: No assets to check in!
+[2019.02.27-15.06.05:760][595]LogSourceControl: Attempting 'p4 clients -u olafgomez'
+[2019.02.27-15.06.05:768][596]LogSourceControl: Display:  UE_G4_Perforce client specs rejected due to root directory mismatch (d:/master de videojuegos madrid/grupo4/)
+[2019.02.27-15.06.08:955][977]LogSourceControl: Attempting 'p4 clients -u olafgomez'
+[2019.02.27-15.06.08:964][978]LogSourceControl: Display:  UE_G4_Perforce client specs rejected due to root directory mismatch (d:/master de videojuegos madrid/grupo4/)
+[2019.02.27-15.06.16:050][825]LogWindows: Warning: CreateProc failed: El sistema no puede encontrar el archivo especificado. (0x00000002)
+[2019.02.27-15.06.16:050][825]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2019.02.27-15.06.16:050][825]LogWindows: Warning: CreateProc failed: El sistema no puede encontrar el archivo especificado. (0x00000002)
+[2019.02.27-15.06.16:050][825]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2019.02.27-15.06.16:052][825]LogWindows: Warning: CreateProc failed: El sistema no puede encontrar el archivo especificado. (0x00000002)
+[2019.02.27-15.06.16:052][825]LogWindows: Warning: URL: C:\Users\Usuario\AppData\Local/Programs/Git/cmd/git.exe version
+[2019.02.27-15.06.16:052][825]LogWindows: Warning: CreateProc failed: El sistema no puede encontrar el archivo especificado. (0x00000002)
+[2019.02.27-15.06.16:052][825]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2019.02.27-15.06.16:053][825]LogWindows: Warning: CreateProc failed: El sistema no puede encontrar el archivo especificado. (0x00000002)
+[2019.02.27-15.06.16:053][825]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2019.02.27-15.06.21:148][359]SourceControl: Source control is disabled
+[2019.02.27-15.06.21:149][359]LogSlate: Window 'Source Control Login' being destroyed
+[2019.02.27-15.06.40:995][719]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-15.06.50:340][835]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.27-15.06.50:361][835]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/Maps/TestMap/TestMap.TestMap_C' with ClassGeneratedBy '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap'
+[2019.02.27-15.06.50:361][835]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.27-15.06.50:362][835]PIE: New page: PIE session: TestMap (27/02/2019 17:06:50)
+[2019.02.27-15.06.50:362][835]LogPlayLevel: Creating play world package: /Game/Maps/TestMap/UEDPIE_0_TestMap
+[2019.02.27-15.06.50:363][835]Error: CDO Constructor (Weapon): Failed to find /Game/Weapons/BP_ProjectileA.BP_ProjectileA_C
+
+[2019.02.27-15.06.50:410][835]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047773s)
+[2019.02.27-15.06.50:410][835]LogAIModule: Creating AISystem for world TestMap
+[2019.02.27-15.06.50:411][835]LogPlayLevel: PIE: World Init took: (0.000716s)
+[2019.02.27-15.06.50:411][835]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap/TestMap.TestMap to /Game/Maps/TestMap/UEDPIE_0_TestMap.TestMap (0.048934s)
+[2019.02.27-15.06.50:504][835]LogInit: XAudio2 using 'Altavoces (USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.27-15.06.50:516][835]LogInit: FAudioDevice initialized.
+[2019.02.27-15.06.50:548][835]LogLoad: Game class is 'FunctionalTestGameMode'
+[2019.02.27-15.06.50:579][835]LogWorld: Bringing World /Game/Maps/TestMap/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2019.02.27-16.06.50
+[2019.02.27-15.06.50:580][835]LogWorld: Bringing up level for play took: 0.030160
+[2019.02.27-15.06.50:594][835]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2019.02.27-15.06.50:598][835]PIE: Play in editor start time for /Game/Maps/TestMap/UEDPIE_0_TestMap -0.077
+[2019.02.27-15.06.50:598][835]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/Maps/TestMap/TestMap.TestMap_C' with ClassGeneratedBy '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap'
+[2019.02.27-15.07.03:370][365]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/Maps/TestMap/TestMap.TestMap_C' with ClassGeneratedBy '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap'
+[2019.02.27-15.07.03:371][365]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.27-15.07.03:411][365]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.27-15.07.03:412][365]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/Maps/TestMap/TestMap.TestMap_C' with ClassGeneratedBy '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap'
+[2019.02.27-15.07.03:438][365]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.27-15.07.03:471][369]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.02.27-15.07.04:552][498]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere3)
+[2019.02.27-15.07.04:710][498]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.27-15.07.05:350][559]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.27-15.07.05:365][559]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/Maps/TestMap/TestMap.TestMap_C' with ClassGeneratedBy '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap'
+[2019.02.27-15.07.05:366][559]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.27-15.07.05:366][559]PIE: New page: PIE session: TestMap (27/02/2019 17:07:05)
+[2019.02.27-15.07.05:366][559]LogPlayLevel: Creating play world package: /Game/Maps/TestMap/UEDPIE_0_TestMap
+[2019.02.27-15.07.05:367][559]Error: CDO Constructor (Weapon): Failed to find /Game/Weapons/BP_ProjectileA.BP_ProjectileA_C
+
+[2019.02.27-15.07.05:414][559]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047730s)
+[2019.02.27-15.07.05:415][559]LogAIModule: Creating AISystem for world TestMap
+[2019.02.27-15.07.05:415][559]LogPlayLevel: PIE: World Init took: (0.000691s)
+[2019.02.27-15.07.05:415][559]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap/TestMap.TestMap to /Game/Maps/TestMap/UEDPIE_0_TestMap.TestMap (0.048906s)
+[2019.02.27-15.07.05:477][559]LogInit: XAudio2 using 'Altavoces (USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.27-15.07.05:488][559]LogInit: FAudioDevice initialized.
+[2019.02.27-15.07.05:526][559]LogLoad: Game class is 'FunctionalTestGameMode'
+[2019.02.27-15.07.05:551][559]LogWorld: Bringing World /Game/Maps/TestMap/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2019.02.27-16.07.05
+[2019.02.27-15.07.05:552][559]LogWorld: Bringing up level for play took: 0.023969
+[2019.02.27-15.07.05:565][559]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2019.02.27-15.07.05:568][559]PIE: Play in editor start time for /Game/Maps/TestMap/UEDPIE_0_TestMap 0.893
+[2019.02.27-15.07.05:569][559]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/Maps/TestMap/TestMap.TestMap_C' with ClassGeneratedBy '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap'
+[2019.02.27-15.07.08:659][926]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.27-15.07.08:748][934]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/Maps/TestMap/TestMap.TestMap_C' with ClassGeneratedBy '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap'
+[2019.02.27-15.07.08:749][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.27-15.07.08:781][934]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.27-15.07.08:782][934]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/Maps/TestMap/TestMap.TestMap_C' with ClassGeneratedBy '/Game/Maps/TestMap/TestMap.TestMap:PersistentLevel.TestMap'
+[2019.02.27-15.07.08:805][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.27-15.07.08:831][937]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.02.27-15.12.21:165][173]LogSavePackage: Moving '../../../../../../../Master de videojuegos Madrid/repogit/Twaliens/Saved/TestMap_Auto16AAF803143AC8021D00E84BF10D6046B.tmp' to '../../../../../../../Master de videojuegos Madrid/repogit/Twaliens/Saved/Autosaves/Game/Maps/TestMap/TestMap_Auto1.umap'
+[2019.02.27-15.12.21:194][173]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestMap/TestMap' took 0.872
+[2019.02.27-15.12.21:194][173]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.872
+[2019.02.27-15.12.21:195][173]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/Mat_Water] ([1] browsable assets)...
+[2019.02.27-15.12.21:254][173]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/Mat_Water.Mat_Water]
+[2019.02.27-15.12.21:255][173]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Mat_Water]
+[2019.02.27-15.12.21:289][173]LogSavePackage: Moving '../../../../../../../Master de videojuegos Madrid/repogit/Twaliens/Saved/Mat_Water_Auto19A9F9F3748570590126C1AB2ADFD1693.tmp' to '../../../../../../../Master de videojuegos Madrid/repogit/Twaliens/Saved/Autosaves/Game/Materials/Mat_Water_Auto1.uasset'
+[2019.02.27-15.12.21:290][173]LogFileHelpers: Auto-saving content packages took 0.095

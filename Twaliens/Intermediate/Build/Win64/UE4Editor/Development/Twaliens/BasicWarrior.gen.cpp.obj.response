@@ -412,21 +412,21 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I D:\Proyectos\Unreal\Git\tualiens\Twaliens\Intermediate\Build\Win64\UE4Editor\Inc\Twaliens
-/I D:\Proyectos\Unreal\Git\tualiens\Twaliens\Source
-/I D:\Proyectos\Unreal\Git\tualiens\Twaliens\Source\Twaliens
+/I "D:\Master de videojuegos Madrid\repogit\Twaliens\Intermediate\Build\Win64\UE4Editor\Inc\Twaliens"
+/I "D:\Master de videojuegos Madrid\repogit\Twaliens\Source"
+/I "D:\Master de videojuegos Madrid\repogit\Twaliens\Source\Twaliens"
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/FI"D:\Proyectos\Unreal\Git\tualiens\Twaliens\Intermediate\Build\Win64\TwaliensEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"D:\Proyectos\Unreal\Git\tualiens\Twaliens\Intermediate\Build\Win64\TwaliensEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"D:\Proyectos\Unreal\Git\tualiens\Twaliens\Intermediate\Build\Win64\TwaliensEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\Proyectos\Unreal\Git\tualiens\Twaliens\Intermediate\Build\Win64\UE4Editor\Inc\Twaliens\BasicWarrior.gen.cpp"
-/FI"D:\Proyectos\Unreal\Git\tualiens\Twaliens\Intermediate\Build\Win64\UE4Editor\Development\Twaliens\Definitions.Twaliens.h"
-/Fo"D:\Proyectos\Unreal\Git\tualiens\Twaliens\Intermediate\Build\Win64\UE4Editor\Development\Twaliens\BasicWarrior.gen.cpp.obj"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
+/FI"D:\Master de videojuegos Madrid\repogit\Twaliens\Intermediate\Build\Win64\TwaliensEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"D:\Master de videojuegos Madrid\repogit\Twaliens\Intermediate\Build\Win64\TwaliensEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"D:\Master de videojuegos Madrid\repogit\Twaliens\Intermediate\Build\Win64\TwaliensEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"D:\Master de videojuegos Madrid\repogit\Twaliens\Intermediate\Build\Win64\UE4Editor\Inc\Twaliens\BasicWarrior.gen.cpp"
+/FI"D:\Master de videojuegos Madrid\repogit\Twaliens\Intermediate\Build\Win64\UE4Editor\Development\Twaliens\Definitions.Twaliens.h"
+/Fo"D:\Master de videojuegos Madrid\repogit\Twaliens\Intermediate\Build\Win64\UE4Editor\Development\Twaliens\BasicWarrior.gen.cpp.obj"
 /TP
 /GR-
 /W4

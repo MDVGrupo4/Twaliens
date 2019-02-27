@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Twaliens.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{1BDBCD5F-53E3-415F-8500-662957F11F6C}</UniqueIdentifier>
+      <UniqueIdentifier>{F4CB4712-6E52-4C12-A723-A2B300E23062}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Twaliens.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{5B75F72D-9333-4D3B-9224-E790F876A977}</UniqueIdentifier>
+      <UniqueIdentifier>{D2A19920-9CD6-40A7-9456-09FF840E8F9A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEngine.ini">
       <Filter>Config</Filter>
@@ -21,7 +21,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Twaliens">
-      <UniqueIdentifier>{6A16B9B0-E15A-4233-AED1-73139D37C969}</UniqueIdentifier>
+      <UniqueIdentifier>{A3CEF3C8-5EF3-4507-8890-780D7709367B}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Twaliens\BasicWarrior.cpp">
       <Filter>Source\Twaliens</Filter>
