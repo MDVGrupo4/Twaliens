@@ -1,0 +1,76 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Proyectos\Unreal\Git\tualiens).
+  Creating makefile for TwaliensEditor (no existing makefile)
+  Performing full C++ include scan (no include cache file)
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Parsing headers for TwaliensEditor
+    Running UnrealHeaderTool "D:\Proyectos\Unreal\Git\tualiens\Twaliens\Twaliens.uproject" "D:\Proyectos\Unreal\Git\tualiens\Twaliens\Intermediate\Build\Win64\TwaliensEditor\Development\TwaliensEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for TwaliensEditor in 32,1348539 seconds
+  Distributing 38 actions to XGE
+  --------------------Build System Warning---------------------------------------
+  License is invalid:
+      License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+      This build will run in standalone mode.
+  
+  -------------------------------------------------------------------------------
+  --------------------Project: Default-------------------------------------------
+  SharedPCH.Engine.cpp (0:34.96 at +0:00)
+  CharacterManager.gen.cpp (0:03.34 at +0:35)
+  CheckEnemyAtMeleeRange.gen.cpp (0:02.51 at +0:38)
+  Dustpan.gen.cpp (0:00.78 at +0:40)
+  EnemySpawner.gen.cpp (0:01.04 at +0:41)
+  LifeComponent.gen.cpp (0:00.76 at +0:42)
+  LookAtRange.gen.cpp (0:02.35 at +0:43)
+  Camera.gen.cpp (0:00.78 at +0:45)
+  MoveToActor.gen.cpp (0:02.39 at +0:46)
+  PickableObject.gen.cpp (0:00.73 at +0:49)
+  ProjectileA.gen.cpp (0:00.81 at +0:49)
+  Twalien.gen.cpp (0:01.01 at +0:50)
+  Twaliens.init.gen.cpp (0:00.62 at +0:51)
+  TwaliensGameModeBase.gen.cpp (0:01.31 at +0:52)
+  Weapon.gen.cpp (0:00.82 at +0:53)
+  NeedToChasePlayer.gen.cpp (0:02.25 at +0:54)
+  BasicWarriorController.gen.cpp (0:02.06 at +0:56)
+  BasicWarrior.gen.cpp (0:01.03 at +0:58)
+  LifeComponent.cpp (0:00.65 at +0:59)
+  BasicWarriorController.cpp (0:03.59 at +1:00)
+  Camera.cpp (0:01.79 at +1:04)
+D:\Proyectos\Unreal\Git\tualiens\Twaliens\Source\Twaliens\Camera.cpp(24): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  D:\Engine\UE_4.21\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(684): note: vea la declaración de 'USceneComponent::AttachTo'
+D:\Proyectos\Unreal\Git\tualiens\Twaliens\Source\Twaliens\Camera.cpp(25): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  D:\Engine\UE_4.21\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(684): note: vea la declaración de 'USceneComponent::AttachTo'
+  CharacterManager.cpp (0:02.09 at +1:05)
+D:\Proyectos\Unreal\Git\tualiens\Twaliens\Source\Twaliens\CharacterManager.cpp(196): warning C4996: 'AController::CastToPlayerController': CastToPlayerController has been replaced by the standard Cast To node. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  D:\Engine\UE_4.21\Engine\Source\Runtime\Engine\Classes\GameFramework/Controller.h(188): note: vea la declaración de 'AController::CastToPlayerController'
+D:\Proyectos\Unreal\Git\tualiens\Twaliens\Source\Twaliens\CharacterManager.cpp(208): warning C4996: 'AController::CastToPlayerController': CastToPlayerController has been replaced by the standard Cast To node. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  D:\Engine\UE_4.21\Engine\Source\Runtime\Engine\Classes\GameFramework/Controller.h(188): note: vea la declaración de 'AController::CastToPlayerController'
+  CheckEnemyAtMeleeRange.cpp (0:03.31 at +1:08)
+d:\proyectos\unreal\git\tualiens\twaliens\source\twaliens\checkenemyatmeleerange.cpp(61): warning C4701: posiblemente se utilizó la variable local 'Distance' sin inicializar
+  Dustpan.cpp (0:01.03 at +1:11)
+  EnemySpawner.cpp (0:01.73 at +1:12)
+  Weapon.cpp (0:00.73 at +1:14)
+  LookAtRange.cpp (0:03.39 at +1:14)
+  MoveToActor.cpp (0:03.04 at +1:18)
+  NeedToChasePlayer.cpp (0:03.20 at +1:21)
+d:\proyectos\unreal\git\tualiens\twaliens\source\twaliens\needtochaseplayer.cpp(60): warning C4701: posiblemente se utilizó la variable local 'Distance' sin inicializar
+  PickableObject.cpp (0:01.01 at +1:24)
+  ProjectileA.cpp (0:00.67 at +1:25)
+  Twalien.cpp (0:01.04 at +1:26)
+D:\Proyectos\Unreal\Git\tualiens\Twaliens\Source\Twaliens\Twalien.cpp(115): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  D:\Engine\UE_4.21\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(684): note: vea la declaración de 'USceneComponent::AttachTo'
+  Twaliens.cpp (0:00.40 at +1:27)
+  TwaliensGameModeBase.cpp (0:01.68 at +1:27)
+  BasicWarrior.cpp (0:01.84 at +1:29)
+  PCLaunch.rc (0:00.26 at +1:31)
+  UE4Editor-Twaliens.dll (0:01.32 at +1:31)
+     Creando biblioteca D:\Proyectos\Unreal\Git\tualiens\Twaliens\Intermediate\Build\Win64\UE4Editor\Development\Twaliens\UE4Editor-Twaliens.suppressed.lib y objeto D:\Proyectos\Unreal\Git\tualiens\Twaliens\Intermediate\Build\Win64\UE4Editor\Development\Twaliens\UE4Editor-Twaliens.suppressed.exp
+  UE4Editor-Twaliens.lib (0:00.15 at +1:32)
+     Creando biblioteca D:\Proyectos\Unreal\Git\tualiens\Twaliens\Intermediate\Build\Win64\UE4Editor\Development\Twaliens\UE4Editor-Twaliens.lib y objeto D:\Proyectos\Unreal\Git\tualiens\Twaliens\Intermediate\Build\Win64\UE4Editor\Development\Twaliens\UE4Editor-Twaliens.exp
+  ---------------------- Done ----------------------
+  
+      Rebuild All: 1 succeeded, 0 failed, 0 skipped
+  
+  1 build system warning(s):
+     - License is invalid
+  
+  Deploying TwaliensEditor Win64 Development...
+  Total build time: 183,76 seconds (XGE executor: 93,16 seconds)
